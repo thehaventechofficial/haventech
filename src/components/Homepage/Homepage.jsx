@@ -5,10 +5,6 @@ import ServiceCard from "../ServiceCard";
 import PortfolioCard from "../PortfolioCard";
 import Navigation from "../Navigation";
 import Footer from "../Footer";
-import heroImage from "../../../public/assets/hero-bg.jpg";
-import projectWeb from "../../../public/assets/project-web.jpg";
-import projectMobile from "../../../public/assets/project-mobile.jpg";
-import projectCloud from "../../../public/assets/project-cloud.jpg";
 import Link from "next/link";
 
 const Homepage = () => {
@@ -44,19 +40,19 @@ const Homepage = () => {
       id: "ecommerce-platform",
       title: "E-Commerce Platform",
       category: "Web Development",
-      image: "/assets/project-web.jpg",
+      image: "/assets/hybridify.png",
     },
     {
       id: "fitness-app",
       title: "Fitness Tracking App",
       category: "Mobile Development",
-      image: "/assets/project-mobile.jpg",
+      image: "/assets/cp.png",
     },
     {
       id: "cloud-migration",
       title: "Enterprise Cloud Migration",
       category: "Cloud Solutions",
-      image: "/assets/project-cloud.jpg",
+      image: "/assets/everyone.png",
     },
   ];
 
@@ -64,14 +60,11 @@ const Homepage = () => {
     <div className="min-h-screen">
       <Navigation />
 
-      {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
-        {/* Diagonal stripe pattern */}
         <div className="absolute inset-0 z-0 opacity-[0.03]" style={{
           backgroundImage: `repeating-linear-gradient(45deg, hsl(var(--foreground)) 0px, hsl(var(--foreground)) 2px, transparent 2px, transparent 40px)`,
         }}></div>
-        
-        {/* Red accent shapes */}
+
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-[400px] h-[400px] bg-accent/10 rounded-full blur-3xl"></div>
 
@@ -80,7 +73,7 @@ const Homepage = () => {
             <div className="inline-block mb-6 px-8 py-3 bg-secondary text-primary-foreground font-bold uppercase tracking-wider text-sm animate-fade-in border-l-4 border-primary">
               Digital Excellence
             </div>
-            
+
             <h1 className="text-6xl md:text-8xl font-heading font-black mb-8 leading-[1.05] animate-fade-in uppercase" style={{ animationDelay: '0.1s' }}>
               Build.
               <br />
@@ -88,11 +81,11 @@ const Homepage = () => {
               <br />
               Dominate.
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-muted-foreground mb-10 max-w-3xl mx-auto leading-relaxed animate-fade-in font-medium" style={{ animationDelay: '0.2s' }}>
               Bold solutions for ambitious brands. We create digital experiences that command attention and drive results.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
               <Button asChild size="lg" className="text-lg px-10 py-7 font-bold uppercase tracking-wide shadow-glow hover:scale-105 transition-transform">
                 <Link href="/contact">
@@ -107,13 +100,11 @@ const Homepage = () => {
           </div>
         </div>
 
-        {/* Geometric accent elements */}
         <div className="absolute top-20 left-10 w-20 h-20 border-4 border-primary rotate-45 animate-float"></div>
         <div className="absolute bottom-32 right-20 w-16 h-16 bg-primary animate-float" style={{ animationDelay: "1s" }}></div>
         <div className="absolute top-1/3 right-1/4 w-12 h-12 border-4 border-accent animate-float" style={{ animationDelay: "0.5s" }}></div>
       </section>
 
-      {/* Services Preview */}
       <section className="py-20 relative">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -139,7 +130,6 @@ const Homepage = () => {
         </div>
       </section>
 
-      {/* Portfolio Highlights */}
       <section className="py-20 gradient-soft">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
@@ -166,35 +156,79 @@ const Homepage = () => {
       </section>
 
       {/* Testimonials */}
-      <section className="py-20">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-heading font-bold mb-4">Client Testimonials</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              What our clients say about working with us
+          {/* Heading */}
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 tracking-tight">Client Testimonials</h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              A glimpse of what our project partners say about working with us
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {[1, 2, 3].map((i) => (
-              <div key={i} className="glass-card p-6 animate-fade-in" style={{ animationDelay: `${i * 0.1}s` }}>
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, index) => (
-                    <Star key={index} size={18} className="fill-accent text-accent" />
-                  ))}
-                </div>
-                <p className="text-muted-foreground mb-4">
-                  "Haven Tech transformed our digital presence with their innovative approach and exceptional technical expertise. Highly recommended!"
-                </p>
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-accent/20"></div>
-                  <div>
-                    <p className="font-semibold">Client Name</p>
-                    <p className="text-sm text-muted-foreground">CEO, Company</p>
-                  </div>
-                </div>
+
+          {/* Testimonials Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Complete Pakistan */}
+            <div className="border border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all bg-gray-50/40 backdrop-blur-sm">
+              <h3 className="text-xl font-semibold mb-4">Complete Pakistan</h3>
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-5 h-5 text-yellow-500">
+                    <path d="M12 .587l3.668 7.568L24 9.748l-6 5.848L19.335 24 12 19.897 4.665 24 6 15.596 0 9.748l8.332-1.593z" />
+                  </svg>
+                ))}
               </div>
-            ))}
+              <p className="text-gray-600 mb-6 leading-relaxed">
+                "Haven Tech delivered a clean, scalable, and modern digital platform for our business.
+                Their team is professional and truly understands long-term partnership."
+              </p>
+              <div>
+                <p className="font-semibold text-gray-900">Zeeshan</p>
+                <p className="text-sm text-gray-500">CEO, Complete Pakistan</p>
+              </div>
+            </div>
+
+
+            {/* Everyone.World */}
+            <div className="border border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all bg-gray-50/40 backdrop-blur-sm">
+              <h3 className="text-xl font-semibold mb-4">Everyone.World</h3>
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-5 h-5 text-yellow-500">
+                    <path d="M12 .587l3.668 7.568L24 9.748l-6 5.848L19.335 24 12 19.897 4.665 24 6 15.596 0 9.748l8.332-1.593z" />
+                  </svg>
+                ))}
+              </div>
+              <p className="text-gray-600 mb-6 leading-relaxed">
+                "The Haven Tech team exceeded expectations with technical excellence and smooth execution.
+                Their dedication made our project journey seamless."
+              </p>
+              <div>
+                <p className="font-semibold text-gray-900">Damoun Dolat</p>
+                <p className="text-sm text-gray-500">CEO, Everyone.World</p>
+              </div>
+            </div>
+
+            {/* Kafela */}
+            <div className="border border-gray-200 rounded-2xl p-8 shadow-sm hover:shadow-md transition-all bg-gray-50/40 backdrop-blur-sm">
+              <h3 className="text-xl font-semibold mb-4">Kafela</h3>
+              <div className="flex mb-4">
+                {[...Array(5)].map((_, i) => (
+                  <svg key={i} xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 24 24" className="w-5 h-5 text-yellow-500">
+                    <path d="M12 .587l3.668 7.568L24 9.748l-6 5.848L19.335 24 12 19.897 4.665 24 6 15.596 0 9.748l8.332-1.593z" />
+                  </svg>
+                ))}
+              </div>
+              <p className="text-gray-600 mb-6 leading-relaxed">
+                "Working with Haven Tech has been a turning point. Their design thinking and engineering quality
+                helped us build a much stronger platform."
+              </p>
+              <div>
+                <p className="font-semibold text-gray-900">Rakibul Hasan</p>
+                <p className="text-sm text-gray-500">CEO, Kafela</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>

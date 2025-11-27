@@ -12,37 +12,37 @@ const Portfolio = () => {
       id: "ecommerce-platform",
       title: "E-Commerce Platform",
       category: "Web Development",
-      image: '/assets/project-web.jpg',
+      image: '/assets/hybridify.png',
     },
     {
       id: "fitness-app",
       title: "Fitness Tracking App",
       category: "Mobile Development",
-      image: '/assets/project-mobile.jpg',
+      image: '/assets/cp.png',
     },
     {
       id: "cloud-migration",
       title: "Enterprise Cloud Migration",
       category: "Cloud Solutions",
-      image: '/assets/project-cloud.jpg',
+      image: '/assets/everyone.png',
     },
     {
       id: "fintech-dashboard",
       title: "FinTech Analytics Dashboard",
       category: "Web Development",
-      image: '/assets/project-web.jpg',
+      image: '/assets/hybridify.png',
     },
     {
       id: "healthcare-app",
       title: "Healthcare Management App",
       category: "Mobile Development",
-      image: '/assets/project-mobile.jpg',
+      image: '/assets/cp.png',
     },
     {
       id: "saas-platform",
       title: "SaaS Platform Redesign",
       category: "UI/UX Design",
-      image: '/assets/project-cloud.jpg',
+      image: '/assets/everyone.png',
     },
   ];
 
