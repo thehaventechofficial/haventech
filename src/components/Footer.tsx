@@ -1,5 +1,5 @@
 'use client'
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Twitter, Mail, Facebook } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -46,16 +46,16 @@ const Footer = () => {
           <div>
             <h4 className="font-heading font-semibold mb-4">Connect</h4>
             <div className="flex gap-4">
-              <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 hover:text-accent transition-all">
+              {/* <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 hover:text-accent transition-all">
                 <Github size={20} />
-              </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 hover:text-accent transition-all">
+              </a> */}
+              <a href="https://www.linkedin.com/company/thehavenech/" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 hover:text-accent transition-all">
                 <Linkedin size={20} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 hover:text-accent transition-all">
-                <Twitter size={20} />
+              <a href="https://www.facebook.com/profile.php?id=61566527994940" target="_blank" rel="noopener noreferrer" className="opacity-80 hover:opacity-100 hover:text-accent transition-all">
+                <Facebook size={20} />
               </a>
-              <a href="mailto:hello@haventech.com" className="opacity-80 hover:opacity-100 hover:text-accent transition-all">
+              <a href="mailto:thehaventechofficial@gmail.com" className="opacity-80 hover:opacity-100 hover:text-accent transition-all">
                 <Mail size={20} />
               </a>
             </div>
