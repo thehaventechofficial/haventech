@@ -51,7 +51,7 @@ export default function HeroSection() {
                             // opacity: 0.6 
                         }}
                     >
-                        <source src="/images/final_video_2.mp4" type="video/mp4" />
+                        <source src="/images/hero.mp4" type="video/mp4" />
                     </video>
 
                     {/* Enhanced gradients */}

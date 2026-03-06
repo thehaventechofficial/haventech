@@ -12,7 +12,7 @@ export default function MapView() {
                 scrolling="no"
                 marginHeight={0}
                 marginWidth={0}
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Silver%20Square,%20G-11%20Markaz,%20Islamabad+(NextChainX)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Silver%20Square,%20G-11%20Markaz,%20Islamabad+(Haven Tech)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
                 style={{ filter: "grayscale(1) invert(0.9) contrast(1.2)" }}
             >
                 <a href="https://www.gps.ie/">gps tracker sport</a>

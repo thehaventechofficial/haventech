@@ -4,17 +4,17 @@ import HeroSection from "../components/FAQ/FAQHero";
 import FAQSection from "../components/FAQ/FAQItem";
 
 export const metadata: Metadata = {
-  title: "FAQs | AI & Blockchain Engineering Questions | NextChainX",
-  description: "Find answers to commonly asked questions about NextChainX's AI systems, blockchain platforms, and digital product engineering services.",
-  keywords: "NextChainX FAQ, AI development questions, blockchain engineering help, tech service inquiries",
+  title: "FAQs | AI & Blockchain Engineering Questions | Haven Tech",
+  description: "Find answers to commonly asked questions about Haven Tech's AI systems, blockchain platforms, and digital product engineering services.",
+  keywords: "Haven Tech FAQ, AI development questions, blockchain engineering help, tech service inquiries",
   openGraph: {
-    title: "FAQs | AI & Blockchain Engineering Questions | NextChainX",
-    description: "Find answers to commonly asked questions about NextChainX's AI systems, blockchain platforms, and digital product engineering services.",
-    url: "https://www.nextchainx.io/faq",
-    images: [{ url: "https://www.nextchainx.io/images/seo_image.jpg" }],
+    title: "FAQs | AI & Blockchain Engineering Questions | Haven Tech",
+    description: "Find answers to commonly asked questions about Haven Tech's AI systems, blockchain platforms, and digital product engineering services.",
+    url: "https://www.Haven Tech.io/faq",
+    images: [{ url: "https://www.Haven Tech.io/images/seo_image.jpg" }],
   },
   alternates: {
-    canonical: "https://www.nextchainx.io/faq",
+    canonical: "https://www.Haven Tech.io/faq",
   },
 };
 

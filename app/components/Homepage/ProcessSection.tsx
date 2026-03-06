@@ -18,13 +18,13 @@ const processes = [
         number: '02',
         title: 'Design',
         description: 'Crafting a minimal viable product (MVP) that balances design with core functionality, maximizing value and user satisfaction.',
-        img: 'https://images.unsplash.com/photo-1561070791-2526d30994b5?q=80&w=1000&auto=format&fit=crop'
+        img: '/images/design.jpg'
     },
     {
         number: '03',
         title: 'Develop',
         description: 'Developing end-to-end solutions with a focus on feasibility assessment, architecture design, and agile process to ensure rapid, high-quality delivery.',
-        img: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1000&auto=format&fit=crop'
+        img: '/images/develop.jpg'
     },
     {
         number: '04',
@@ -36,13 +36,13 @@ const processes = [
         number: '05',
         title: 'Launch',
         description: 'Executing a successful product launch by developing tailored deployment plans, executing a smooth rollout, and offering dedicated post-launch assistance.',
-        img: '/images/launch.jpg'
+        img: '/images/launch.avif'
     },
     {
         number: '06',
         title: 'Support',
         description: 'Providing ongoing support and enhancements to ensure continued product success.',
-        img: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=1000&auto=format&fit=crop'
+        img: 'images/support.jpg'
     }
 ];
 

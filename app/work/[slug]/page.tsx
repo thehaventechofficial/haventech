@@ -13,7 +13,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
     if (!project) {
         return {
-            title: "Project Not Found | NextChainX",
+            title: "Project Not Found | Haven Tech",
         };
     }
 

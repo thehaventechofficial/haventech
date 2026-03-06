@@ -20,21 +20,21 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
     if (!categoryData) {
         return {
-            title: "Category Not Found | NextChainX",
+            title: "Category Not Found | Haven Tech",
         };
     }
 
     return {
-        title: `${categoryData.title} | AI & Blockchain Services | NextChainX`,
+        title: `${categoryData.title} | AI & Blockchain Services | Haven Tech`,
         description: categoryData.description,
         openGraph: {
-            title: `${categoryData.title} | AI & Blockchain Services | NextChainX`,
+            title: `${categoryData.title} | AI & Blockchain Services | Haven Tech`,
             description: categoryData.description,
-            url: `https://www.nextchainx.io/services/${category}`,
-            images: [{ url: "https://www.nextchainx.io/images/seo_image.jpg" }],
+            url: `https://www.Haven Tech.io/services/${category}`,
+            images: [{ url: "https://www.Haven Tech.io/images/seo_image.jpg" }],
         },
         alternates: {
-            canonical: `https://www.nextchainx.io/services/${category}`,
+            canonical: `https://www.Haven Tech.io/services/${category}`,
         },
     };
 }

@@ -6,6 +6,7 @@ import {
     FormErrorMessage, useToast, Icon, Flex, HStack
 } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
+import emailjs from '@emailjs/browser';
 import { useState, useRef } from 'react';
 import { FiMail, FiPhoneCall, FiMapPin } from 'react-icons/fi';
 import PhoneInput from 'react-phone-input-2';
@@ -62,25 +63,42 @@ export default function ContactFormSection() {
             setErrors(newErrors);
             return;
         }
+        if (!captchaVerified) {
+            toast({
+                title: "Verification Required",
+                description: "Please complete the reCAPTCHA challenge.",
+                status: "warning"
+            });
+            return;
+        }
 
         setIsSubmitting(true);
         try {
-            const response = await fetch('/api/contact', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ ...formData, services: [formData.service] }),
-            });
+            const templateParams = {
+                from_name: formData.fullName,
+                from_email: formData.email,
+                phone: formData.contact,
+                interest: formData.service,
+                message: formData.message,
+            };
 
-            if (response.ok) {
+            const result = await emailjs.send(
+                process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '',
+                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || '',
+                templateParams,
+                process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || ''
+            );
+
+            if (result.status === 200) {
                 toast({ title: "Message sent!", status: "success", duration: 5000, isClosable: true });
                 setFormData({ fullName: '', email: '', contact: '', service: '', message: '' });
+
                 if (recaptchaRef.current) recaptchaRef.current.reset();
                 setCaptchaVerified(false);
-            } else {
-                throw new Error('Failed to send');
             }
         } catch (error) {
-            toast({ title: "Error", description: "Failed to send message.", status: "error", duration: 5000 });
+            console.error('EmailJS Error:', error);
+            toast({ title: "Error", description: "Failed to send message.", status: "error" });
         } finally {
             setIsSubmitting(false);
         }
@@ -202,7 +220,7 @@ export default function ContactFormSection() {
                                 style={{
                                     width: '100%',
                                     padding: '16px',
-                                    borderRadius: '16px',
+                                    borderRadius: '50px',
                                     background: 'linear-gradient(90deg, #FF1313, #E60000)',
                                     color: 'white',
                                     fontWeight: '800',

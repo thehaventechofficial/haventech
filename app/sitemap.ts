@@ -4,7 +4,7 @@ import { servicesData } from './lib/servicesData';
 import { projects } from './components/Work/WorkData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://www.nextchainx.io';
+    const baseUrl = 'https://www.Haven Tech.io';
 
     // Static routes
     const staticRoutes = [

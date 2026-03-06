@@ -3,11 +3,11 @@ import WorkClient from './WorkClient';
 
 export const metadata: Metadata = {
     title: "Our Work | AI & Blockchain Portfolio",
-    description: "Explore NextChainX's portfolio of AI systems, blockchain platforms, and scalable digital products. See how we deliver engineering excellence across global markets.",
-    keywords: ["NextChainX portfolio", "AI project showcase", "blockchain case studies", "digital product engineering examples"],
+    description: "Explore Haven Tech's portfolio of AI systems, blockchain platforms, and scalable digital products. See how we deliver engineering excellence across global markets.",
+    keywords: ["Haven Tech portfolio", "AI project showcase", "blockchain case studies", "digital product engineering examples"],
     openGraph: {
-        title: "Our Work | AI & Blockchain Portfolio | NextChainX",
-        description: "Explore NextChainX's portfolio of AI systems, blockchain platforms, and scalable digital products. See how we deliver engineering excellence across global markets.",
+        title: "Our Work | AI & Blockchain Portfolio | Haven Tech",
+        description: "Explore Haven Tech's portfolio of AI systems, blockchain platforms, and scalable digital products. See how we deliver engineering excellence across global markets.",
         url: "/work",
         images: [{ url: "/images/seo_image.jpg" }],
     },

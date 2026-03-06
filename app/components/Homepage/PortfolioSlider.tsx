@@ -21,42 +21,61 @@ const MotionBox = motion(Box);
 const portfolioItems = [
     {
         id: 1,
-        year: '2024',
-        tags: ['SOLANA', 'NODEJS', 'NEXTJS', 'RUST', 'PYTHON'],
-        title: 'MemeHive',
+        year: '2026',
+        tags: ['NEXTJS', 'TAILWIND', 'NODEJS', 'CHAKRA UI'],
+        title: 'Sorsify',
         description:
-            'MemeHive is a Solana-based investment hub and automatic trading platform focused on memecoins — perfect for crypto enthusiasts seeking hands-free profits.',
-        image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?q=80&w=2832&auto=format&fit=crop', // Replace with Actual Image path if available
+            'A comprehensive digital solutions agency platform providing scalable marketing, 24/7 omnichannel support, and Shopify ecommerce development for global enterprises.',
+        image: '/images/sorsify.png',
     },
     {
         id: 2,
-        year: '2025',
-        tags: ['EVM', 'NEXTJS', 'SOLIDITY', 'NODEJS'],
-        title: 'Schindlersx',
+        year: '2026',
+        tags: ['SOLANA', 'WEB3', 'NEXTJS', 'VERCEL'],
+        title: 'Crypto Gaming',
         description:
-            'Schindlersx is a powerful Real World Assets (RWA) platform built on the Ethereum Virtual Machine (EVM), enabling secure asset digitization and blockchain-based ownership management.',
-        image: 'https://images.unsplash.com/photo-1642104704074-907c0698bcd9?q=80&w=2832&auto=format&fit=crop',
+        'A Web3 gaming hub integrated with the Solana blockchain. Features five arcade-style games with NFT-gated access and on-chain progress tracking.',
+        image: '/images/CNM.png',
     },
     {
         id: 3,
-        year: '2024',
-        tags: ['MOBILE', 'REACT NATIVE', 'FIREBASE'],
-        title: 'PartyShark',
+        year: '2026',
+        tags: ['CYBERSECURITY', 'EDTECH', 'NESTJS', 'FIREBASE'],
+        title: 'Cyber Unicorns',
         description:
-            'PartyShark is the ultimate event discovery and social planning app, helping users find the best parties and manage their social calendar with ease.',
-        image: 'https://images.unsplash.com/photo-1514525253361-bee8a187499b?q=80&w=2846&auto=format&fit=crop',
+            'An interactive cybersecurity education platform and consultancy hub offering jargon-free training, vCISO services, and mobile-based learning resources.',
+        image: '/images/cu.png',
     },
     {
         id: 4,
-        year: '2024',
-        tags: ['AI', 'PYTHON', 'FASTAPI'],
-        title: 'Chronicle AI',
+        year: '2026',
+        tags: ['NEXTJS', 'MONGODB', 'AWS', 'I18NEXT'],
+        title: 'Complete Pakistan',
         description:
-            'Chronicle AI leverages advanced machine learning models to provide real-time insights and automated workflows for enterprise-scale data management.',
-        image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=2832&auto=format&fit=crop',
+            'A massive-scale overseas employment portal connecting talent with Gulf-region opportunities through verified OEP directories and real-time job matching.',
+        image: '/images/cp.png',
     },
+    {
+        id: 5,
+        year: '2026',
+        tags: ['I18NEXT', 'NEXTJS', 'SWIPERSLIDER', 'CHAKRA UI'],
+        title: 'Kafela',
+        description:
+            'An authentic Bengali Islamic educational platform providing structured access to Quran, 34,000+ Hadith, and real-time spiritual tools.',
+        image: '/images/kafela.png',
+    },
+    {
+        id: 6,
+        year: '2026',
+        tags: ['ETHEREUM', 'BLOCKCHAIN', 'DAO', 'NEXTJS'],
+        title: 'Everyone World',
+        description:
+            'A decentralized social ecosystem and Web3 hub. Replaces subscription tools with a unified global stream, zero-fee ecommerce, and community governance.',
+        image: '/images/everyone.png',
+    }
 ];
-const AUTO_PLAY_INTERVAL = 5000; 
+
+const AUTO_PLAY_INTERVAL = 50000;
 
 export default function PortfolioSlider() {
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -81,7 +100,6 @@ export default function PortfolioSlider() {
     }, [nextSlide]);
 
     const activeItem = portfolioItems[currentIndex];
-
     return (
         <Box
             as="section"
@@ -106,7 +124,7 @@ export default function PortfolioSlider() {
                     pointerEvents="none"
                 >
                     <Text
-                        fontSize={{ base: "8rem", md: "22rem" }}
+                        fontSize={{ base: "8rem", md: "18rem" }}
                         fontWeight="900"
                         lineHeight="1"
                         whiteSpace="nowrap"

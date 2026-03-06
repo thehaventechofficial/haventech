@@ -20,7 +20,7 @@ export const faqCategories = [
 export const faqData: FAQItem[] = [
   {
     id: 1,
-    question: 'How do I start a project with NextChainX?',
+    question: 'How do I start a project with Haven Tech?',
     answer: 'Starting a project is simple. Contact us through our consultation form, and our solutions architects will reach out within 24 hours to schedule a discovery call to understand your requirements and objectives.',
     category: 'Getting Started',
     icon: 'FaRocket',

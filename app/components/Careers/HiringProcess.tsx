@@ -18,7 +18,7 @@ const steps = [
     {
         icon: FiGift,
         title: 'Decision & Offer',
-        description: 'If it\'s a match, we will extend an offer and welcome you to the NextChainX family.',
+        description: 'If it\'s a match, we will extend an offer and welcome you to the Haven Tech family.',
     },
 ];
 

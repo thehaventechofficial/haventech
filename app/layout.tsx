@@ -20,16 +20,16 @@ const bricolage = Bricolage_Grotesque({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.nextchainx.io"),
+  metadataBase: new URL("https://www.thehaventech.com"),
   title: {
-    default: "AI & Blockchain Engineering Company | NextChainX",
-    template: "%s | NextChainX",
+    default: "AI & Blockchain Engineering Company | Haven Tech",
+    template: "%s | Haven Tech",
   },
-  description: "NextChainX builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
-  keywords: ["NextChainX", "AI engineering", "blockchain development", "AI systems", "blockchain platforms", "digital products", "MVP development", "enterprise solutions", "smart contracts", "DeFi", "tokenization"],
-  authors: [{ name: "NextChainX" }],
-  creator: "NextChainX",
-  publisher: "NextChainX",
+  description: "Haven Tech builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
+  keywords: ["Haven Tech", "AI engineering", "blockchain development", "AI systems", "blockchain platforms", "digital products", "MVP development", "enterprise solutions", "smart contracts", "DeFi", "tokenization"],
+  authors: [{ name: "Haven Tech" }],
+  creator: "Haven Tech",
+  publisher: "Haven Tech",
   robots: {
     index: true,
     follow: true,
@@ -42,25 +42,25 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "AI & Blockchain Engineering Company | NextChainX",
-    description: "NextChainX builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
+    title: "AI & Blockchain Engineering Company | Haven Tech",
+    description: "Haven Tech builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
     type: "website",
-    url: "https://www.nextchainx.io/",
-    siteName: "NextChainX",
+    url: "https://www.Haven Tech.io/",
+    siteName: "Haven Tech",
     images: [{
       url: "/images/seo_image.jpg",
       width: 1200,
       height: 630,
-      alt: "NextChainX AI & Blockchain Engineering"
+      alt: "Haven Tech AI & Blockchain Engineering"
     }],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AI & Blockchain Engineering Company | NextChainX",
-    description: "NextChainX builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
+    title: "AI & Blockchain Engineering Company | Haven Tech",
+    description: "Haven Tech builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
     images: ["/images/seo_image.jpg"],
-    creator: "@nextchainx",
+    creator: "@Haven Tech",
   },
   alternates: {
     canonical: "/",
@@ -76,14 +76,14 @@ export default function RootLayout({
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "NextChainX",
-    "url": "https://www.nextchainx.io",
-    "logo": "https://www.nextchainx.io/favicon.ico",
-    "description": "NextChainX builds AI systems, blockchain platforms, and scalable digital products.",
+    "name": "Haven Tech",
+    "url": "https://www.Haven Tech.io",
+    "logo": "https://www.Haven Tech.io/favicon.ico",
+    "description": "Haven Tech builds AI systems, blockchain platforms, and scalable digital products.",
     "sameAs": [
-      "https://twitter.com/nextchainx",
-      "https://linkedin.com/company/nextchainx",
-      "https://github.com/nextchainx"
+      "https://twitter.com/Haven Tech",
+      "https://linkedin.com/company/Haven Tech",
+      "https://github.com/Haven Tech"
     ]
   };
 

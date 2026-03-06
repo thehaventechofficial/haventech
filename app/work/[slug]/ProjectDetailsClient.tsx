@@ -246,7 +246,7 @@ export default function ProjectDetailsClient() {
                             <Link href="/contact">
                                 <Box
                                     px={12}
-                                    py={6}
+                                    py={4}
                                     bg="red.600"
                                     color="white"
                                     borderRadius="full"

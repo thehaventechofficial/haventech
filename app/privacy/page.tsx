@@ -4,16 +4,16 @@ import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer';
 
 export const metadata: Metadata = {
-    title: "Privacy Policy | NextChainX",
-    description: "Read NextChainX's privacy policy to understand how we collect, use, and protect your data in our AI and blockchain engineering projects.",
+    title: "Privacy Policy | Haven Tech",
+    description: "Read Haven Tech's privacy policy to understand how we collect, use, and protect your data in our AI and blockchain engineering projects.",
     openGraph: {
-        title: "Privacy Policy | NextChainX",
-        description: "Read NextChainX's privacy policy to understand how we collect, use, and protect your data in our AI and blockchain engineering projects.",
-        url: "https://www.nextchainx.io/privacy",
-        images: [{ url: "https://www.nextchainx.io/images/seo_image.jpg" }],
+        title: "Privacy Policy | Haven Tech",
+        description: "Read Haven Tech's privacy policy to understand how we collect, use, and protect your data in our AI and blockchain engineering projects.",
+        url: "https://www.Haven Tech.io/privacy",
+        images: [{ url: "https://www.Haven Tech.io/images/seo_image.jpg" }],
     },
     alternates: {
-        canonical: "https://www.nextchainx.io/privacy",
+        canonical: "https://www.Haven Tech.io/privacy",
     },
 };
 
@@ -45,7 +45,7 @@ export default function PrivacyPage() {
                             <li>Provide, maintain, and improve our services.</li>
                             <li>Develop new products and features.</li>
                             <li>Communicate with you regarding project updates or marketing materials.</li>
-                            <li>Protect NextChainX and our users.</li>
+                            <li>Protect Haven Tech and our users.</li>
                         </ul>
                     </section>
 
@@ -53,7 +53,7 @@ export default function PrivacyPage() {
                         <h2>3. Information Sharing</h2>
                         <p>
                             We do not share personal information with companies, organizations, or individuals
-                            outside of NextChainX unless one of the following circumstances applies:
+                            outside of Haven Tech unless one of the following circumstances applies:
                         </p>
                         <ul>
                             <li>With your explicit consent.</li>
@@ -65,7 +65,7 @@ export default function PrivacyPage() {
                     <section>
                         <h2>4. Data Security</h2>
                         <p>
-                            We work hard to protect NextChainX and our users from unauthorized access to or
+                            We work hard to protect Haven Tech and our users from unauthorized access to or
                             unauthorized alteration, disclosure, or destruction of information we hold.
                             We implement industry-standard security measures including encryption and secure
                             access controls.
@@ -114,7 +114,7 @@ export default function PrivacyPage() {
                         <h2>9. Contact Us</h2>
                         <p>
                             If you have any questions about this Privacy Policy, please contact us at
-                            privacy@nextchainx.com.
+                            privacy@Haven Tech.com.
                         </p>
                     </section>
                 </LegalLayout>

@@ -1,4 +1,5 @@
 'use client'
+import Image from 'next/image';
 import Link from 'next/link';
 import { BsTwitterX, BsLinkedin, BsGithub } from 'react-icons/bs';
 
@@ -49,9 +50,11 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr] gap-14">
                     <div className="space-y-7 pr-6 border-r border-neutral-100 lg:border-r">
                         <Link href="/" className="inline-block">
-                            <h1 className="!text-3xl !font-bold text-neutral-900">
+                            {/* <h1 className="!text-3xl !font-bold text-neutral-900">
                                 NextChain<span className="text-red-600">X</span>
-                            </h1>
+                            </h1> */}
+                            <Image src="/images/logo.png" alt="Logo" width={200} height={20} />
+
                         </Link>
 
                         <p className="text-neutral-600 leading-relaxed max-w-md">
@@ -106,7 +109,7 @@ const Footer = () => {
                                 justify-between gap-6 text-sm text-neutral-500">
 
                     <p>
-                        © {new Date().getFullYear()} NextChainX. All rights reserved.
+                        © {new Date().getFullYear()} Haven Tech. All rights reserved.
                     </p>
 
                     <div className="flex items-center gap-8">

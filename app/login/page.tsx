@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { signIn, signUp, resendConfirmationEmail } from '../actions/auth'
 
 export const metadata: Metadata = {
-  title: "Login | NextChainX",
-  description: "Sign in to your NextChainX account to manage your projects and access engineering resources.",
+  title: "Login | Haven Tech",
+  description: "Sign in to your Haven Tech account to manage your projects and access engineering resources.",
 };
 
 export default function LoginPage({

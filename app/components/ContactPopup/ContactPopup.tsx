@@ -5,6 +5,7 @@ import { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSmoothScroller } from '../ScrollContext/ScrollContext';
 import ReCAPTCHA from 'react-google-recaptcha';
+import emailjs from '@emailjs/browser';
 import {
     Box,
     Grid,
@@ -45,11 +46,12 @@ const contactInfo = [
 ];
 
 const socialLinks = [
-    { icon: <FaFacebook size={18} />, href: 'https://www.facebook.com/nextchainx', label: 'Facebook' },
+    { icon: <FaFacebook size={18} />, href: 'https://www.facebook.com/Haven Tech', label: 'Facebook' },
     { icon: <FaXTwitter size={18} />, href: 'https://x.com/ncx_global', label: 'Twitter' },
-    { icon: <FaInstagram size={18} />, href: 'https://www.instagram.com/nextchainx', label: 'Instagram' },
-    { icon: <FaLinkedin size={18} />, href: 'https://www.linkedin.com/company/nextchainx', label: 'LinkedIn' }
+    { icon: <FaInstagram size={18} />, href: 'https://www.instagram.com/Haven Tech', label: 'Instagram' },
+    { icon: <FaLinkedin size={18} />, href: 'https://www.linkedin.com/company/Haven Tech', label: 'LinkedIn' }
 ];
+
 
 const serviceOptions = [
     { value: 'tokenization', label: 'Tokenization of Real World Assets (RWAs)' },
@@ -119,20 +121,33 @@ export default function ContactPopup({ isOpen, onClose }) {
             setErrors(newErrors);
             return;
         }
+        if (!captchaVerified) {
+            toast({
+                title: "Verification Required",
+                description: "Please complete the reCAPTCHA challenge.",
+                status: "warning"
+            });
+            return;
+        }
 
         setIsSubmitting(true);
         try {
-            const response = await fetch('/api/contact', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    ...formData,
-                    services: [formData.service]
-                }),
-            });
+            const templateParams = {
+                from_name: formData.fullName,
+                from_email: formData.email,
+                phone: formData.contact,
+                interest: formData.service,
+                message: formData.message,
+            };
 
-            const result = await response.json();
-            if (response.ok && result.success) {
+            const result = await emailjs.send(
+                process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID || '',
+                process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID || '',
+                templateParams,
+                process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY || ''
+            );
+
+            if (result.status === 200) {
                 toast({
                     title: "Message sent!",
                     description: "We'll get back to you soon.",
@@ -145,10 +160,9 @@ export default function ContactPopup({ isOpen, onClose }) {
                 if (recaptchaRef.current) recaptchaRef.current.reset();
                 setCaptchaVerified(false);
                 onClose();
-            } else {
-                throw new Error(result.error || 'Failed to send message');
             }
         } catch (error) {
+            console.error('EmailJS Error:', error);
             toast({
                 title: "Error!",
                 description: "Failed to send message. Please try again.",
@@ -472,10 +486,11 @@ export default function ContactPopup({ isOpen, onClose }) {
                                             disabled={isSubmitting}
                                             whileHover={{ scale: 1.02 }}
                                             whileTap={{ scale: 0.98 }}
+                                            rounded={'full'}
                                             style={{
                                                 width: '100%',
                                                 padding: '16px',
-                                                borderRadius: '10px !important',
+                                                borderRadius: '50px !important',
                                                 background: isSubmitting ? '#ccc' : 'linear-gradient(90deg, #FF1313, #E60000)',
                                                 color: 'white',
                                                 fontWeight: '700',

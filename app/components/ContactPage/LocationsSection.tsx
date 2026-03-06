@@ -9,7 +9,7 @@ const locations = [
         country: "USA",
         city: "New York",
         address: "123 Business Avenue, Manhattan, New York, NY 10001",
-        email: "us.info@nextchainx.io",
+        email: "us.info@Haven Tech.io",
         phone: "+1 929-624-8820",
         image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=800",
     },
@@ -17,15 +17,15 @@ const locations = [
         country: "Pakistan",
         city: "Islamabad",
         address: "Plot 14, Silver Square, G-11 Markaz, Islamabad 44000",
-        email: "pk.info@nextchainx.io",
+        email: "pk.info@Haven Tech.io",
         phone: "+92 300-1234567",
-        image: "https://images.unsplash.com/photo-1544411047-c491e34a24e0?auto=format&fit=crop&q=80&w=800",
+        image: "/images/islamabad.jpg",
     }
 ];
 
 export default function LocationsSection() {
     return (
-        <Box py={{ base: 20, md: 32 }} bg="white">
+        <Box pb={{ base: 20, md: 32 }} bg="white">
             <Container maxW="1400px">
                 <VStack spacing={12} align="center">
                     <VStack spacing={4} textAlign="center">

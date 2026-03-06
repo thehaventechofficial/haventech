@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: ['/dashboard/', '/api/'],
         },
-        sitemap: 'https://www.nextchainx.io/sitemap.xml',
+        sitemap: 'https://www.Haven Tech.io/sitemap.xml',
     };
 }

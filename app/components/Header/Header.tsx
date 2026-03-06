@@ -8,6 +8,7 @@ import { AiOutlineRobot, AiOutlineGlobal, AiOutlineMobile, AiOutlineCloud, AiOut
 import { CiGrid41 } from 'react-icons/ci';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useContactPopup } from '../ContactPopup/ContactContext';
+import Image from 'next/image';
 
 const industriesItems = [
   { name: 'Finance & Fintech', href: '/industries/finance-fintech', icon: BsBank },
@@ -195,20 +196,18 @@ const Header = () => {
       <header className={`fixed top-0 left-0 z-50 transition-all duration-500 w-full`}>
         <div className={`mx-auto transition-all duration-500 ease-in-out ${isScrolled ? 'max-w-[1400px] mt-4' : 'max-w-full mt-0'}`}>
           <div
-            className={`bg-white/80 backdrop-blur-xl flex items-center justify-between gap-x-4 py-3 px-6 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border border-white/20 transition-all duration-300 ${isScrolled ? 'rounded-full' : 'rounded-none'}`}
+            className={`bg-white/80 backdrop-blur-xl flex items-center justify-between gap-x-4 py-1 px-6 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border border-white/20 transition-all duration-300 ${isScrolled ? 'rounded-full' : 'rounded-none'}`}
           >
-            {/* Logo */}
             <div className="flex items-center gap-x-8">
               <Link href="/" className="flex items-center gap-2 group">
-                <span className="text-xl font-bold text-black">
+                <Image src="/images/logo.png" alt="Logo" width={170} height={20} />
+                {/* <span className="text-xl font-bold text-black">
                   NextChain<span className="font-senibold tracking-tighter text-2xl text-red-600">X</span>
-                </span>
+                </span> */}
               </Link>
 
-              <div className="hidden h-6 w-[1px] bg-neutral-200 lg:block"></div>
             </div>
 
-            {/* Desktop Navigation */}
             <nav className="hidden lg:block">
               <ul className="flex items-center gap-2">
                 {navLinks.map((link) => (
@@ -229,7 +228,6 @@ const Header = () => {
                       )}
                     </Link>
 
-                    {/* Mega Menu - Services */}
                     {link.megaMenu && (
                       <AnimatePresence>
                         {hoveredMenu === link.name && (
@@ -240,7 +238,7 @@ const Header = () => {
                             transition={{ duration: 0.2, ease: "easeOut" }}
                             className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-[1100px]"
                           >
-                            <div className="bg-white rounded-[2.5rem] shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-neutral-100 p-10 grid grid-cols-3 gap-x-12 gap-y-12">
+                            <div className="bg-white rounded-[1.2rem] shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-neutral-100 p-10 grid grid-cols-3 gap-x-12 gap-y-12">
                               {serviceCategories.map((category) => (
                                 <div key={category.title} className="space-y-6">
                                   <div className="flex items-center gap-3">
@@ -272,7 +270,6 @@ const Header = () => {
                       </AnimatePresence>
                     )}
 
-                    {/* Dropdown - Industries & Regions */}
                     {link.dropdown && (
                       <AnimatePresence>
                         {hoveredMenu === link.name && (
@@ -309,7 +306,7 @@ const Header = () => {
             <div className="flex items-center gap-4">
               <button
                 onClick={() => onOpen()}
-                className="!min-w-[150px] !px-5 !py-3 font-semibold text-[14px] rounded-full leading-6 overflow-hidden   transition-all duration-300 !text-white  !bg-red-500 hidden sm:block"
+                className="!min-w-[150px] !px-5 !py-3 font-semibold text-[14px] rounded-full leading-6 overflow-hidden  transition-all duration-300 !text-white  !bg-red-500 hidden sm:block"
               >
                 Get In Touch
               </button>
@@ -343,7 +340,7 @@ const Header = () => {
               >
                 <div className="flex items-center justify-between mb-10">
                   <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-red-600 to-indigo-600">
-                    NextChainX
+                    Haven Tech
                   </span>
                   <button
                     onClick={() => setIsMobileMenuOpen(false)}

@@ -4,7 +4,7 @@ import { signOut } from '../actions/auth'
 import { createClient } from '../lib/supabase/server'
 
 export const metadata: Metadata = {
-  title: 'Dashboard | NextChainX',
+  title: 'Dashboard | Haven Tech',
   robots: 'noindex, nofollow',
 };
 

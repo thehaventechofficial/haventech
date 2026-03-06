@@ -75,7 +75,7 @@ export default function PageHero({
                 >
                     <Link href={ctaHref}>
                         <Button
-                            bg={isTopLayer ? "transparent" : "red.600"}
+                            bg={isTopLayer ? "transparent" : "linear-gradient(90deg, rgb(255, 19, 19), rgb(230, 0, 0))"}
                             color={isTopLayer ? "transparent" : "white"}
                             _hover={{
                                 bg: isTopLayer ? "transparent" : "black",
@@ -88,7 +88,7 @@ export default function PageHero({
                             fontWeight="900"
                             letterSpacing="0.1em"
                             transition="all 0.3s"
-                            borderRadius="2xl"
+                            borderRadius="full"
                             textTransform="uppercase"
                             visibility={isTopLayer ? "hidden" : "visible"}
                             rightIcon={!isTopLayer ? <FaArrowRight /> : undefined}

@@ -7,17 +7,17 @@ import ContactFormSection from "../components/ContactPage/ContactFormSection";
 import MapView from "../components/ContactPage/MapView";
 
 export const metadata: Metadata = {
-    title: "Contact Us | AI & Blockchain Solutions | NextChainX",
-    description: "Get in touch with NextChainX for project inquiries, collaborations, or any questions about our AI and blockchain engineering services.",
-    keywords: "Contact NextChainX, AI development inquiry, blockchain project consultation, tech partnership",
+    title: "Contact Us | AI & Blockchain Solutions | Haven Tech",
+    description: "Get in touch with Haven Tech for project inquiries, collaborations, or any questions about our AI and blockchain engineering services.",
+    keywords: "Contact Haven Tech, AI development inquiry, blockchain project consultation, tech partnership",
     openGraph: {
-        title: "Contact Us | AI & Blockchain Solutions | NextChainX",
-        description: "Get in touch with NextChainX for project inquiries, collaborations, or any questions about our AI and blockchain engineering services.",
-        url: "https://www.nextchainx.io/contact",
-        images: [{ url: "https://www.nextchainx.io/images/seo_image.jpg" }],
+        title: "Contact Us | AI & Blockchain Solutions | Haven Tech",
+        description: "Get in touch with Haven Tech for project inquiries, collaborations, or any questions about our AI and blockchain engineering services.",
+        url: "https://www.Haven Tech.io/contact",
+        images: [{ url: "https://www.Haven Tech.io/images/seo_image.jpg" }],
     },
     alternates: {
-        canonical: "https://www.nextchainx.io/contact",
+        canonical: "https://www.Haven Tech.io/contact",
     },
 };
 

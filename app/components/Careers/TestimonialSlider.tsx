@@ -6,7 +6,7 @@ import { TfiQuoteLeft } from 'react-icons/tfi';
 
 const testimonials = [
     {
-        quote: "Working at NextChainX has been an incredible journey. The culture of innovation and the focus on growth are unparalleled.",
+        quote: "Working at Haven Tech has been an incredible journey. The culture of innovation and the focus on growth are unparalleled.",
         name: "James Wilson",
         role: "Senior Developer",
         image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop",
@@ -52,7 +52,7 @@ export default function TestimonialSlider() {
                             </Text>
                         </Flex>
                         <Heading fontSize={{ base: "3xl", md: "5xl" }} fontWeight="800">
-                            Let’s see why our team members love NextChainX
+                            Let’s see why our team members love Haven Tech
                         </Heading>
                     </Box>
 

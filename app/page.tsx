@@ -13,18 +13,18 @@ import Footer from "./components/Footer/Footer";
 import IndustrySlider from "./components/Homepage/Industries";
 
 export const metadata: Metadata = {
-  title: "AI & Blockchain Engineering Company | NextChainX",
-  description: "NextChainX builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
-  keywords: ["NextChainX", "AI engineering", "blockchain development", "AI systems", "blockchain platforms", "digital products", "MVP development", "enterprise solutions", "smart contracts", "DeFi", "tokenization"],
+  title: "AI & Blockchain Engineering Company | Haven Tech",
+  description: "Haven Tech builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
+  keywords: ["Haven Tech", "AI engineering", "blockchain development", "AI systems", "blockchain platforms", "digital products", "MVP development", "enterprise solutions", "smart contracts", "DeFi", "tokenization"],
   openGraph: {
-    title: "AI & Blockchain Engineering Company | NextChainX",
-    description: "NextChainX builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
+    title: "AI & Blockchain Engineering Company | Haven Tech",
+    description: "Haven Tech builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
     url: "/",
     images: [{
       url: "/images/seo_image.jpg",
       width: 1200,
       height: 630,
-      alt: "NextChainX AI & Blockchain Engineering"
+      alt: "Haven Tech AI & Blockchain Engineering"
     }],
   },
   alternates: {

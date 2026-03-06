@@ -18,22 +18,22 @@ interface PageProps {
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
     const { category, service } = await params;
     const categoryData = servicesData.find((c) => c.slug === category);
-    if (!categoryData) return { title: "Service Not Found | NextChainX" };
+    if (!categoryData) return { title: "Service Not Found | Haven Tech" };
 
     const serviceData = categoryData.services.find((s) => s.slug === service);
-    if (!serviceData) return { title: "Service Not Found | NextChainX" };
+    if (!serviceData) return { title: "Service Not Found | Haven Tech" };
 
     return {
-        title: `${serviceData.title} | ${categoryData.title} | NextChainX`,
+        title: `${serviceData.title} | ${categoryData.title} | Haven Tech`,
         description: serviceData.shortDescription,
         openGraph: {
-            title: `${serviceData.title} | ${categoryData.title} | NextChainX`,
+            title: `${serviceData.title} | ${categoryData.title} | Haven Tech`,
             description: serviceData.shortDescription,
-            url: `https://www.nextchainx.io/services/${category}/${service}`,
+            url: `https://www.Haven Tech.io/services/${category}/${service}`,
             images: [{ url: serviceData.image }],
         },
         alternates: {
-            canonical: `https://www.nextchainx.io/services/${category}/${service}`,
+            canonical: `https://www.Haven Tech.io/services/${category}/${service}`,
         },
     };
 }

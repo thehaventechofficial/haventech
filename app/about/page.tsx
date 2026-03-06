@@ -3,11 +3,11 @@ import AboutClient from './AboutClient';
 
 export const metadata: Metadata = {
     title: "About Us | AI & Blockchain Engineering Experts",
-    description: "Learn about NextChainX's mission to build the future of AI and blockchain. Our team of experts delivers scalable enterprise solutions and innovative digital products.",
-    keywords: ["About NextChainX", "AI experts", "blockchain engineers", "technology mission", "digital transformation team"],
+    description: "Learn about Haven Tech's mission to build the future of AI and blockchain. Our team of experts delivers scalable enterprise solutions and innovative digital products.",
+    keywords: ["About Haven Tech", "AI experts", "blockchain engineers", "technology mission", "digital transformation team"],
     openGraph: {
-        title: "About Us | AI & Blockchain Engineering Experts | NextChainX",
-        description: "Learn about NextChainX's mission to build the future of AI and blockchain. Our team of experts delivers scalable enterprise solutions and innovative digital products.",
+        title: "About Us | AI & Blockchain Engineering Experts | Haven Tech",
+        description: "Learn about Haven Tech's mission to build the future of AI and blockchain. Our team of experts delivers scalable enterprise solutions and innovative digital products.",
         url: "/about",
         images: [{ url: "/images/seo_image.jpg" }],
     },
