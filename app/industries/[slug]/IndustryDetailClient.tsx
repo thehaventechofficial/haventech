@@ -13,8 +13,6 @@ import Header from '@/app/components/Header/Header';
 import Footer from '@/app/components/Footer/Footer';
 import { BsArrowRight, BsCheckCircle, BsLightningCharge, BsShieldCheck, BsCpu, BsBriefcase, BsCheck2Circle } from 'react-icons/bs';
 import { FiArrowUpRight, FiLayers, FiActivity, FiGlobe, FiZap, FiLayout } from 'react-icons/fi';
-import Link from 'next/link';
-import * as FaIcons from 'react-icons/fa';
 import { IndustryData } from '@/app/lib/industries';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { useContactPopup } from '../../components/ContactPopup/ContactContext';
@@ -123,44 +121,6 @@ export default function IndustryDetailClient({ industry }: IndustryDetailClientP
                     </Container>
                 </Box>
 
-                {/* Section 2: Large Parallax Vision Section */}
-                <Box h={{ base: "400px", md: "700px" }} position="relative" overflow="hidden" zIndex={1}>
-                    <Box
-                        as={motion.div}
-                        style={{ y: parallaxY, scale: imageScale } as any}
-                        position="absolute"
-                        inset="0"
-                        zIndex={0}
-                    >
-                        <Image
-                            src={parallaxImg}
-                            alt="Visionary Tech"
-                            w="100%"
-                            h="120%"
-                            objectFit="cover"
-                            filter="brightness(0.4) contrast(1.1)"
-                        />
-                    </Box>
-                    <Box
-                        position="absolute"
-                        inset="0"
-                        bgGradient="linear(to-b, white 0%, transparent 20%, transparent 80%, white 100%)"
-                        zIndex={1}
-                    />
-                    <Container maxW="1200px" h="100%" position="relative" zIndex={2}>
-                        <Flex align="center" justify="center" h="100%">
-                            <VStack spacing={6} textAlign="center">
-                                <Badge colorScheme="red" px={4} py={1} borderRadius="full" fontSize="xs" fontWeight="900" letterSpacing="0.1em">
-                                    ENGINEERING THE FUTURE
-                                </Badge>
-                                <Heading color="white" fontSize={{ base: "4xl", md: "7xl" }} fontWeight="900" letterSpacing="-0.04em" lineHeight="1.1">
-                                    Uncompromising Tech <br /> for High-Stakes Markets.
-                                </Heading>
-                            </VStack>
-                        </Flex>
-                    </Container>
-                </Box>
-
                 {/* Section 3: Challenges We Solve */}
                 <Box py={32} bg="white">
                     <Container maxW="1440px">
@@ -174,7 +134,7 @@ export default function IndustryDetailClient({ industry }: IndustryDetailClientP
                                 <Heading fontSize={{ base: "3xl", md: "6xl" }} fontWeight="900" mb={8} letterSpacing="-0.02em">
                                     {industry.challenges.title}
                                 </Heading>
-                                <Text fontSize="xl" color="gray.600" maxW="1000px" mx="auto" lineHeight="1.8">
+                                <Text fontSize={{base:"md", md:'xl'}} color="gray.600" maxW="1000px" mx="auto" lineHeight="1.8">
                                     {industry.challenges.description}
                                 </Text>
                             </Box>
@@ -199,7 +159,7 @@ export default function IndustryDetailClient({ industry }: IndustryDetailClientP
                                             h="100%"
                                             _hover={{ bg: "white", shadow: "2xl", borderColor: "brand.red", transform: "translateY(-10px)" }}
                                         >
-                                            <Flex boxSize={14} bg="brand.red" borderRadius="xl" align="center" justify="center" mb={8} color="white" boxShadow="lg">
+                                            <Flex boxSize={14} bg="brand.red" borderRadius="xl" align="center" justify="center" mb={8} color="red" boxShadow="lg">
                                                 <Icon as={[BsLightningCharge, BsShieldCheck, BsCpu, FiLayers, FiActivity, FiGlobe][idx % 6]} boxSize={7} />
                                             </Flex>
                                             <Heading fontSize="2xl" fontWeight="900" mb={4} color="gray.800">
