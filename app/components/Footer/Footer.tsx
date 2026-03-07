@@ -39,6 +39,7 @@ const footerLinks = [
             { name: 'FAQ', href: '/faq' },
             { name: 'Privacy Policy', href: '/privacy' },
             { name: 'Terms of Service', href: '/terms' },
+            { name: 'Sitemap', href: '/sitemap.xml' },
         ]
     }
 ];
@@ -61,10 +62,14 @@ const Footer = () => {
                             Blockchain technology and Artificial Intelligence.
                         </p>
                         <div className="flex items-center gap-4 pt-2">
-                            {[BsTwitterX, BsLinkedin, BsGithub].map((Icon, i) => (
+                            {[
+                                { Icon: BsTwitterX, href: 'https://twitter.com/TheHavenTech' },
+                                { Icon: BsLinkedin, href: 'https://linkedin.com/company/thehaventech' },
+                                { Icon: BsGithub, href: 'https://github.com/thehaventech' }
+                            ].map(({ Icon, href }, i) => (
                                 <Link
                                     key={i}
-                                    href="#"
+                                    href={href}
                                     className="w-11 h-11 rounded-inner border border-neutral-200 bg-white 
                                                flex items-center justify-center text-neutral-500 
                                                hover:text-red-600 hover:border-red-400/60 
@@ -118,7 +123,7 @@ const Footer = () => {
                         <Link href="/terms" className="hover:text-red-600 transition-colors">
                             Terms
                         </Link>
-                        <Link href="/sitemap" className="hover:text-red-600 transition-colors">
+                        <Link href="/sitemap.xml" className="hover:text-red-600 transition-colors">
                             Sitemap
                         </Link>
                     </div>

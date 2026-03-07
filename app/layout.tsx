@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     title: "AI & Blockchain Engineering Company | Haven Tech",
     description: "Haven Tech builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
     type: "website",
-    url: "https://www.Haven Tech.io/",
+    url: "https://www.thehaventech.com/",
     siteName: "Haven Tech",
     images: [{
       url: "/images/seo_image.jpg",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     title: "AI & Blockchain Engineering Company | Haven Tech",
     description: "Haven Tech builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
     images: ["/images/seo_image.jpg"],
-    creator: "@Haven Tech",
+    creator: "@TheHavenTech",
   },
   alternates: {
     canonical: "/",
@@ -77,13 +77,13 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Haven Tech",
-    "url": "https://www.Haven Tech.io",
-    "logo": "https://www.Haven Tech.io/favicon.ico",
+    "url": "https://www.thehaventech.com",
+    "logo": "https://www.thehaventech.com/favicon.ico",
     "description": "Haven Tech builds AI systems, blockchain platforms, and scalable digital products.",
     "sameAs": [
-      "https://twitter.com/Haven Tech",
-      "https://linkedin.com/company/Haven Tech",
-      "https://github.com/Haven Tech"
+      "https://twitter.com/TheHavenTech",
+      "https://linkedin.com/company/thehaventech",
+      "https://github.com/thehaventech"
     ]
   };
 

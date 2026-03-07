@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Privacy Policy | Haven Tech",
         description: "Read Haven Tech's privacy policy to understand how we collect, use, and protect your data in our AI and blockchain engineering projects.",
-        url: "https://www.Haven Tech.io/privacy",
-        images: [{ url: "https://www.Haven Tech.io/images/seo_image.jpg" }],
+        url: "https://www.thehaventech.com/privacy",
+        images: [{ url: "/images/seo_image.jpg" }],
     },
     alternates: {
-        canonical: "https://www.Haven Tech.io/privacy",
+        canonical: "https://www.thehaventech.com/privacy",
     },
 };
 
@@ -114,7 +114,7 @@ export default function PrivacyPage() {
                         <h2>9. Contact Us</h2>
                         <p>
                             If you have any questions about this Privacy Policy, please contact us at
-                            privacy@Haven Tech.com.
+                            privacy@thehaventech.com.
                         </p>
                     </section>
                 </LegalLayout>

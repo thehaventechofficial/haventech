@@ -8,11 +8,11 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Careers | Join the Haven Tech Team | AI & Blockchain Jobs",
         description: "Explore career opportunities at Haven Tech. Join our mission to build innovative AI and blockchain systems. Work with global markets and cutting-edge technology.",
-        url: "https://www.Haven Tech.io/careers",
-        images: [{ url: "https://www.Haven Tech.io/images/seo_image.jpg" }],
+        url: "https://www.thehaventech.com/careers",
+        images: [{ url: "/images/seo_image.jpg" }],
     },
     alternates: {
-        canonical: "https://www.Haven Tech.io/careers",
+        canonical: "https://www.thehaventech.com/careers",
     },
 };
 

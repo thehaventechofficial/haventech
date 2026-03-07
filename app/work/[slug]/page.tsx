@@ -23,11 +23,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         openGraph: {
             title: `${project.title} | AI & Blockchain Case Study`,
             description: project.description,
-            url: `/work/${slug}`,
+            url: `https://www.thehaventech.com/work/${slug}`,
             images: [{ url: project.thumbnail }],
         },
         alternates: {
-            canonical: `/work/${slug}`,
+            canonical: `https://www.thehaventech.com/work/${slug}`,
         },
     };
 }

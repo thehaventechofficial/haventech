@@ -8,11 +8,11 @@ export const metadata: Metadata = {
     openGraph: {
         title: "About Us | AI & Blockchain Engineering Experts | Haven Tech",
         description: "Learn about Haven Tech's mission to build the future of AI and blockchain. Our team of experts delivers scalable enterprise solutions and innovative digital products.",
-        url: "/about",
+        url: "https://www.thehaventech.com/about",
         images: [{ url: "/images/seo_image.jpg" }],
     },
     alternates: {
-        canonical: "/about",
+        canonical: "https://www.thehaventech.com/about",
     },
 };
 

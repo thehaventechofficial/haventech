@@ -9,7 +9,7 @@ const locations = [
         country: "USA",
         city: "New York",
         address: "123 Business Avenue, Manhattan, New York, NY 10001",
-        email: "us.info@Haven Tech.io",
+        email: "us.info@thehaventech.com",
         phone: "+1 929-624-8820",
         image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?auto=format&fit=crop&q=80&w=800",
     },
@@ -17,7 +17,7 @@ const locations = [
         country: "Pakistan",
         city: "Islamabad",
         address: "Plot 14, Silver Square, G-11 Markaz, Islamabad 44000",
-        email: "pk.info@Haven Tech.io",
+        email: "pk.info@thehaventech.com",
         phone: "+92 300-1234567",
         image: "/images/islamabad.jpg",
     }

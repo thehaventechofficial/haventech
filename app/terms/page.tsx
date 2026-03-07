@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Terms and Conditions | Haven Tech",
         description: "Review the terms and conditions for using Haven Tech's AI, blockchain, and digital engineering services.",
-        url: "https://www.Haven Tech.io/terms",
-        images: [{ url: "https://www.Haven Tech.io/images/seo_image.jpg" }],
+        url: "https://www.thehaventech.com/terms",
+        images: [{ url: "/images/seo_image.jpg" }],
     },
     alternates: {
-        canonical: "https://www.Haven Tech.io/terms",
+        canonical: "https://www.thehaventech.com/terms",
     },
 };
 
@@ -97,7 +97,7 @@ export default function TermsPage() {
                         <h2>8. Contact Us</h2>
                         <p>
                             If you have any questions about these Terms and Conditions, please contact us at
-                            legal@Haven Tech.com.
+                            legal@thehaventech.com.
                         </p>
                     </section>
                 </LegalLayout>

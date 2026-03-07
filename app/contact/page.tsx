@@ -13,11 +13,11 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Contact Us | AI & Blockchain Solutions | Haven Tech",
         description: "Get in touch with Haven Tech for project inquiries, collaborations, or any questions about our AI and blockchain engineering services.",
-        url: "https://www.Haven Tech.io/contact",
-        images: [{ url: "https://www.Haven Tech.io/images/seo_image.jpg" }],
+        url: "https://www.thehaventech.com/contact",
+        images: [{ url: "/images/seo_image.jpg" }],
     },
     alternates: {
-        canonical: "https://www.Haven Tech.io/contact",
+        canonical: "https://www.thehaventech.com/contact",
     },
 };
 

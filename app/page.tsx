@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "AI & Blockchain Engineering Company | Haven Tech",
     description: "Haven Tech builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
-    url: "/",
+    url: "https://www.thehaventech.com/",
     images: [{
       url: "/images/seo_image.jpg",
       width: 1200,
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     }],
   },
   alternates: {
-    canonical: "/",
+    canonical: "https://www.thehaventech.com/",
   },
 };
 

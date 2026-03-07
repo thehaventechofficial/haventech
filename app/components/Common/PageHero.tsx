@@ -55,7 +55,7 @@ export default function PageHero({
                 )}
 
                 <MotionHeading
-                    as="h1"
+                    as={isTopLayer ? "h1" : "div"}
                     fontSize={{ base: "4xl", sm: "display-sm", md: "display-md", lg: "display-2xl" }}
                     fontWeight="900"
                     lineHeight="tight"

@@ -7,10 +7,10 @@ export const metadata: Metadata = {
     openGraph: {
         title: "Industries We Serve | Enterprise AI & Blockchain Solutions",
         description: "Discover how Haven Tech transforms businesses across Fintech, Healthcare, E-Commerce, Real Estate, and more using AI and Blockchain technology.",
-        url: "/industries",
+        url: "https://www.thehaventech.com/industries",
     },
     alternates: {
-        canonical: "/industries",
+        canonical: "https://www.thehaventech.com/industries",
     },
 };
 
