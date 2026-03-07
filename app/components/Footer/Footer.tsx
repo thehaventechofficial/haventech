@@ -7,19 +7,21 @@ const footerLinks = [
     {
         title: 'Services',
         links: [
-            { name: 'Blockchain Development', href: '/services/blockchain-services' },
-            { name: 'AI Solutions', href: '/services/ai-services' },
-            { name: 'Web Applications', href: '/services/web-app-development-services' },
-            { name: 'Mobile Apps', href: '/services/mobile-app-development-services' },
+            { name: 'AI & LLM Solutions', href: '/services/ai-services' },
+            { name: 'Blockchain Services', href: '/services/blockchain-services' },
+            { name: 'Web Development', href: '/services/web-app-development-services' },
+            { name: 'Mobile App Development', href: '/services/mobile-app-development-services' },
+            { name: 'MVP & Prototyping', href: '/services/prototyping-and-mvp-services' },
         ]
     },
     {
         title: 'Industries',
         links: [
-            { name: 'Fintech', href: '/industries/finance-fintech' },
-            { name: 'Real Estate', href: '/industries/real-estate' },
+            { name: 'Fintech & Banking', href: '/industries/fintech' },
             { name: 'Healthcare', href: '/industries/healthcare' },
-            { name: 'Supply Chain', href: '/industries/supply-chain' },
+            { name: 'E-Commerce & Retail', href: '/industries/ecommerce' },
+            { name: 'Real Estate', href: '/industries/real-estate' },
+            { name: 'Travel & Hospitality', href: '/industries/travel-hospitality' },
         ]
     },
     {
@@ -50,9 +52,6 @@ const Footer = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr] gap-14">
                     <div className="space-y-7 pr-6 border-r border-neutral-100 lg:border-r">
                         <Link href="/" className="inline-block">
-                            {/* <h1 className="!text-3xl !font-bold text-neutral-900">
-                                NextChain<span className="text-red-600">X</span>
-                            </h1> */}
                             <Image src="/images/logo.png" alt="Logo" width={200} height={20} />
 
                         </Link>
@@ -66,7 +65,7 @@ const Footer = () => {
                                 <Link
                                     key={i}
                                     href="#"
-                                    className="w-11 h-11 rounded-lg border border-neutral-200 bg-white 
+                                    className="w-11 h-11 rounded-inner border border-neutral-200 bg-white 
                                                flex items-center justify-center text-neutral-500 
                                                hover:text-red-600 hover:border-red-400/60 
                                                hover:shadow-sm transition-all duration-300"
@@ -80,7 +79,7 @@ const Footer = () => {
                     {footerLinks.map((section) => (
                         <div key={section.title} className="space-y-6">
 
-                            <h4 className="text-sm !font-semibold uppercase tracking-wider text-neutral-800 border-b border-neutral-200 pb-3">
+                            <h4 className="text-sm font-bold uppercase tracking-wider text-neutral-800 border-b border-neutral-200 pb-3">
                                 {section.title}
                             </h4>
 

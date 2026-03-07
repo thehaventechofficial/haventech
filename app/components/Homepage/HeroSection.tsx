@@ -135,8 +135,8 @@ export default function HeroSection() {
                                 <Heading
                                     as="h1"
                                     color="white"
-                                    lineHeight="0.95"
-                                    fontSize={{ base: "3xl", sm: "4xl", md: "6xl", lg: "7xl" }}
+                                    lineHeight="tight"
+                                    fontSize={{ base: "3xl", sm: "display-sm", md: "display-md", lg: "display-lg" }}
                                     fontWeight="800"
                                     letterSpacing="-0.03em"
                                     textAlign={{ base: "center", md: "left" }}

@@ -3,15 +3,15 @@ import { Box, Container, Heading, Text, SimpleGrid, Stack, Image, useColorModeVa
 import { motion } from 'framer-motion';
 
 const awards = [
-    { name: 'Best Blockchain Solution 2024', issuer: 'Tech Innovation Awards', image: '/images/award-1.png' },
-    { name: 'AI Excellence Award', issuer: 'Global AI Summit', image: '/images/award-2.png' },
-    { name: 'Top Web3 Developer', issuer: 'Clutch', image: '/images/award-3.png' },
-    { name: 'Innovation in FinTech', issuer: 'Forbes', image: '/images/award-4.png' },
-    { name: 'Sustainable Tech Leader', issuer: 'Green Future Index', image: '/images/award-5.png' },
-    { name: 'Best Workplace for Devs', issuer: 'Glassdoor', image: '/images/award-6.png' },
+    { name: 'Top Blockchain Company', issuer: 'Clutch', image: '/images/clutchAwards.webp' },
+    { name: 'Top Software Development Company', issuer: 'Global AI Summit', image: '/images/softsuggestAwards.webp' },
+    { name: 'Top Rated Blockchain Service Providers', issuer: 'Tech Innovation Awards', image: '/images/goodFirmsAwards.webp' },
+    { name: 'Top Mobile App Developers 2026', issuer: 'Forbes', image: '/images/mobilappDailyAwards.webp' },
+    { name: 'Top Software Developers 2026', issuer: 'Green Future Index', image: '/images/topDevsAwards.webp' },
+    { name: 'Top Software Development Company', issuer: 'Glassdoor', image: '/images/designRush.webp' },
 ];
 
-const AwardItem = ({ name, issuer, index }: { name: string, issuer: string, index: number }) => {
+const AwardItem = ({ name, issuer, index, image }: { name: string, issuer: string, index: number, image: string }) => {
     return (
         <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -20,7 +20,7 @@ const AwardItem = ({ name, issuer, index }: { name: string, issuer: string, inde
             transition={{ duration: 0.4, delay: index * 0.1 }}
         >
             <Box
-                p={8}
+                p={4}
                 border="1px solid"
                 borderColor={useColorModeValue('gray.200', 'whiteAlpha.200')}
                 borderRadius="xl"
@@ -29,7 +29,15 @@ const AwardItem = ({ name, issuer, index }: { name: string, issuer: string, inde
                 _hover={{ borderColor: 'red.600', bg: useColorModeValue('gray.50', 'whiteAlpha.50') }}
             >
                 <Stack spacing={3}>
-                    <Box h="60px" w="60px" bg="gray.200" borderRadius="full" mx="auto" mb={2} /> {/* Placeholder for award logo */}
+                    <Image
+                        src={image}
+                        height="100px"
+                        width="100px"
+                        borderRadius="full"
+                        mx="auto"
+                        mb={2}
+                        objectFit="cover"
+                    />
                     <Heading fontSize="lg" fontWeight="700">{name}</Heading>
                     <Text fontSize="sm" color="gray.500">{issuer}</Text>
                 </Stack>

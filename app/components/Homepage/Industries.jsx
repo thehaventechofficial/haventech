@@ -51,13 +51,13 @@ export default function IndustrySlider() {
                 <VStack align="flex-start" spacing={6}>
                     <Heading
                         as="h2"
-                        fontSize={{ base: '4xl', md: '6xl' }}
-                        fontWeight="600"
+                        fontSize={{ base: '3xl', md: 'display-md' }}
+                        fontWeight="900"
                         color="black"
-                        lineHeight="1.1"
+                        lineHeight="tight"
                     >
                         Industries We <br />
-                        <Text as="span" color="red">Empower</Text>
+                        <Text as="span" color="red.600">Empower</Text>
                     </Heading>
                     <Text color="black" maxW="xl" fontSize="lg">
                         We deliver tailored digital solutions across industries, empowering businesses to innovate, scale, and thrive in a connected world.
@@ -104,7 +104,7 @@ export default function IndustrySlider() {
                             position="relative"
                             w={{ base: '280px', md: '380px' }}
                             h={{ base: '400px', md: '500px' }}
-                            borderRadius="24px" 
+                            borderRadius="card" 
                             overflow="hidden"
                             flexShrink={0}
                         >

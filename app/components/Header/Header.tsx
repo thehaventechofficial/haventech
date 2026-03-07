@@ -11,11 +11,11 @@ import { useContactPopup } from '../ContactPopup/ContactContext';
 import Image from 'next/image';
 
 const industriesItems = [
-  { name: 'Finance & Fintech', href: '/industries/finance-fintech', icon: BsBank },
-  { name: 'Real Estate & RWA Tokenization', href: '/industries/real-estate', icon: BsBuildings },
-  { name: 'Supply Chain & Logistics', href: '/industries/supply-chain', icon: BsTruck },
+  { name: 'Fintech & Banking', href: '/industries/fintech', icon: BsBank },
+  { name: 'Real Estate & RWA', href: '/industries/real-estate', icon: BsBuildings },
+  { name: 'E-Commerce & Retail', href: '/industries/ecommerce', icon: BsTruck },
   { name: 'Healthcare & Life Sciences', href: '/industries/healthcare', icon: BsHeartPulse },
-  { name: 'Gaming, Metaverse & NFTs', href: '/industries/gaming-metaverse', icon: BsController },
+  { name: 'Travel & Hospitality', href: '/industries/travel-hospitality', icon: AiOutlineGlobal },
 ];
 
 const regionsItems = [
@@ -32,8 +32,8 @@ const serviceCategories = [
     items: [
       { name: 'Blockchain Services', href: '/services/blockchain-services', icon: FiAnchor },
       { name: 'AI Services', href: '/services/ai-services', icon: AiOutlineRobot },
-      { name: 'Web App Developement Services', href: '/services/web-app-development-services', icon: AiOutlineGlobal },
-      { name: 'Mobile App Developement Services', href: '/services/mobile-app-development-services', icon: AiOutlineMobile },
+      { name: 'Web App Development Services', href: '/services/web-app-development-services', icon: AiOutlineGlobal },
+      { name: 'Mobile App Development Services', href: '/services/mobile-app-development-services', icon: AiOutlineMobile },
       { name: 'Prototyping & MVP', href: '/services/prototyping-and-mvp-services', icon: FiLayers },
     ]
   },
@@ -165,7 +165,7 @@ const serviceCategories = [
 
 const navLinks = [
   { name: 'Services', href: '/services', megaMenu: true },
-  { name: 'Industries', href: '/#industries', dropdown: 'industries' },
+  { name: 'Industries', href: '/industries', dropdown: 'industries' },
   { name: 'Work', href: '/work' },
   { name: 'Career', href: '/careers' },
   { name: 'About', href: '/about' },
@@ -201,9 +201,6 @@ const Header = () => {
             <div className="flex items-center gap-x-8">
               <Link href="/" className="flex items-center gap-2 group">
                 <Image src="/images/logo.png" alt="Logo" width={170} height={20} />
-                {/* <span className="text-xl font-bold text-black">
-                  NextChain<span className="font-senibold tracking-tighter text-2xl text-red-600">X</span>
-                </span> */}
               </Link>
 
             </div>
@@ -238,11 +235,11 @@ const Header = () => {
                             transition={{ duration: 0.2, ease: "easeOut" }}
                             className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-[1100px]"
                           >
-                            <div className="bg-white rounded-[1.2rem] shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-neutral-100 p-10 grid grid-cols-3 gap-x-12 gap-y-12">
+                            <div className="bg-white rounded-card shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-neutral-100 p-10 grid grid-cols-3 gap-x-12 gap-y-12">
                               {serviceCategories.map((category) => (
                                 <div key={category.title} className="space-y-6">
                                   <div className="flex items-center gap-3">
-                                    <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-red-50 to-indigo-50 flex items-center justify-center text-red-600">
+                                    <div className="w-12 h-12 rounded-inner bg-gradient-to-br from-red-50 to-indigo-50 flex items-center justify-center text-red-600">
                                       <category.icon size={24} />
                                     </div>
                                     <h3 className="text-[17px] font-bold text-neutral-900 tracking-tight">{category.title}</h3>
@@ -252,7 +249,7 @@ const Header = () => {
                                       <li key={item.name}>
                                         <Link
                                           href={item.href}
-                                          className="flex items-center gap-3.5 text-neutral-500 hover:text-red-600 transition-all group/item px-2 py-1 -ml-2 rounded-xl hover:bg-neutral-50"
+                                          className="flex items-center gap-3.5 text-neutral-500 hover:text-red-600 transition-all group/item px-2 py-1 -ml-2 rounded-inner hover:bg-neutral-50"
                                         >
                                           <div className="p-2 rounded-lg bg-neutral-50 group-hover/item:bg-white group-hover/item:shadow-sm transition-all text-neutral-400 group-hover/item:text-red-500">
                                             <item.icon size={18} />
@@ -280,12 +277,12 @@ const Header = () => {
                             transition={{ duration: 0.2, ease: "easeOut" }}
                             className="absolute left-0 top-full pt-4 w-64"
                           >
-                            <div className="bg-white rounded-2xl shadow-xl border border-neutral-100 p-3">
+                            <div className="bg-white rounded-card shadow-xl border border-neutral-100 p-3">
                               {(link.dropdown === 'industries' ? industriesItems : regionsItems).map((item) => (
                                 <Link
                                   key={item.name}
                                   href={item.href}
-                                  className="flex items-center gap-3 px-4 py-3 rounded-xl hover:bg-red-50 transition-colors group/drop"
+                                  className="flex items-center gap-3 px-4 py-3 rounded-inner hover:bg-red-50 transition-colors group/drop"
                                 >
                                   <div className="text-neutral-400 group-hover/drop:text-red-500 transition-colors">
                                     <item.icon size={18} />

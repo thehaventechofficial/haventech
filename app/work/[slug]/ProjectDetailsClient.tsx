@@ -25,6 +25,7 @@ import { projects } from '../../components/Work/WorkData';
 import { FiArrowLeft, FiLayers, FiCheckCircle, FiCpu, FiExternalLink } from 'react-icons/fi';
 import Link from 'next/link';
 import PageHero from '../../components/Common/PageHero';
+import { useContactPopup } from '../../components/ContactPopup/ContactContext';
 
 const MotionBox = motion(Box);
 const MotionHeading = motion(Heading);
@@ -32,6 +33,7 @@ const MotionText = motion(Text);
 const MotionFlex = motion(Flex);
 
 export default function ProjectDetailsClient() {
+    const { onOpen } = useContactPopup();
     const params = useParams();
     const slug = params?.slug as string;
     const project = projects.find(p => p.slug === slug);
@@ -70,7 +72,7 @@ export default function ProjectDetailsClient() {
                     subtitle={`Work / ${project.category} / ${project.title}`}
                     image={project.thumbnail}
                     ctaText="GET IN TOUCH"
-                    ctaHref="/contact"
+                    onCtaClick={onOpen}
                 />
 
                 {/* Project Strategy & Stats */}
@@ -232,10 +234,10 @@ export default function ProjectDetailsClient() {
                                 </Text>
 
                                 <Heading
-                                    fontSize={{ base: "4xl", md: "6xl", lg: "7xl" }}
+                                    fontSize={{ base: "4xl", md: "display-md", lg: "display-lg" }}
                                     fontWeight="900"
                                     color="white"
-                                    lineHeight="1.1"
+                                    lineHeight="tight"
                                     letterSpacing="-0.04em"
                                 >
                                     Let's Start Your <br />
@@ -243,13 +245,13 @@ export default function ProjectDetailsClient() {
                                 </Heading>
                             </Stack>
 
-                            <Link href="/contact">
                                 <Box
+                                    onClick={onOpen}
                                     px={12}
                                     py={4}
                                     bg="red.600"
                                     color="white"
-                                    borderRadius="full"
+                                    borderRadius="pill"
                                     fontWeight="bold"
                                     fontSize="lg"
                                     _hover={{ bg: "red.500", transform: "translateY(-4px)", boxShadow: "0 20px 40px rgba(220, 38, 38, 0.4)" }}
@@ -261,7 +263,6 @@ export default function ProjectDetailsClient() {
                                 >
                                     Work With Us <Icon as={FiExternalLink} />
                                 </Box>
-                            </Link>
                         </VStack>
                     </Container>
                 </Box>

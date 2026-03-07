@@ -4,10 +4,12 @@ import { Box, Container, Heading, Text, Button, Stack, Flex } from '@chakra-ui/r
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { FiArrowRight } from 'react-icons/fi';
+import { useContactPopup } from '../ContactPopup/ContactContext';
 
 const MotionBox = motion(Box);
 
 export default function AboutCTA() {
+    const { onOpen } = useContactPopup();
     return (
         <Box
             position="relative"
@@ -52,10 +54,10 @@ export default function AboutCTA() {
                             </Text>
 
                             <Heading
-                                fontSize={{ base: "4xl", md: "6xl", lg: "7xl" }}
+                                fontSize={{ base: "4xl", md: "display-md", lg: "display-lg" }}
                                 fontWeight="900"
                                 color="white"
-                                lineHeight="1.1"
+                                lineHeight="tight"
                                 letterSpacing="-0.04em"
                             >
                                 Ready to Build the <br />
@@ -68,13 +70,12 @@ export default function AboutCTA() {
                         </Stack>
 
                         <Flex gap={6} direction={{ base: "column", sm: "row" }}>
-                            <Button
-                                as={Link}
-                                href="/contact"
+                             <Button
+                                onClick={onOpen}
                                 size="lg"
                                 px={10}
                                 py={8}
-                                rounded="full"
+                                borderRadius="pill"
                                 bg="red.600"
                                 color="white"
                                 fontSize="lg"

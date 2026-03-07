@@ -1,0 +1,200 @@
+[
+    {
+        "id": 1,
+        "icon": "FiCpu",
+        "title": "Generative AI & Custom LLMs",
+        "description": "Fine-tuned models for text, image, and code generation. From GPT-based systems to domain-specific LLMs, we customize AI that understands your business.",
+        "category": "ai",
+        "page": "ai-services",
+        "slug": "generative-ai-custom-llms"
+    },
+    {
+        "id": 2,
+        "icon": "FiMessageSquare",
+        "title": "AI Agents & Voice Interfaces",
+        "description": "Conversational systems powered by natural language processing, capable of handling calls, chats, and workflows — perfect for enterprises, medical assistants, and customer support.",
+        "category": "ai",
+        "page": "ai-services",
+        "slug": "ai-agents-voice-interfaces"
+    },
+    {
+        "id": 3,
+        "icon": "FiCodepen",
+        "title": "AI + Blockchain Integration",
+        "description": "Merge intelligence with transparency. We design hybrid systems where AI decision-making is verifiable through blockchain ledgers.",
+        "category": "ai",
+        "page": "ai-services",
+        "slug": "ai-blockchain-integration"
+    },
+    {
+        "id": 4,
+        "icon": "FiDatabase",
+        "title": "Data Engineering & MLOps",
+        "description": "Data pipelines, model deployment, monitoring, and version control using modern frameworks (Ray.io, TensorFlow, PyTorch).",
+        "category": "ai",
+        "page": "ai-services",
+        "slug": "data-engineering-mlops"
+    },
+    {
+        "id": 5,
+        "icon": "FiSmartphone",
+        "title": "Mobile AI Solutions",
+        "description": "Integrate AI models into mobile apps for real-time recommendations, recognition, or analytics.",
+        "category": "ai",
+        "page": "ai-services",
+        "slug": "mobile-ai-solutions"
+    },
+    {
+        "id": 6,
+        "icon": "FiGlobe",
+        "title": "Custom Web Applications",
+        "description": "We build responsive, high-performance web platforms using React, Next.js, Vue, Laravel, and Node.js. Whether it's a SaaS product, dashboard, marketplace, or internal tool, our systems are cloud-ready, secure, and optimized for global traffic.",
+        "category": "web",
+        "page": "web-app-development-services",
+        "slug": "custom-web-applications"
+    },
+    {
+        "id": 7,
+        "icon": "FiZap",
+        "title": "Prototyping & MVP Development",
+        "description": "Launch your idea quickly with a functional MVP that validates your concept, attracts investors, and reduces go-to-market time. We design wireframes, workflows, and prototypes before development to ensure clarity and precision.",
+        "category": "web",
+        "page": "web-app-development-services",
+        "slug": "prototyping-mvp-development"
+    },
+    {
+        "id": 8,
+        "icon": "FiLayout",
+        "title": "UI/UX Design & Web Product Strategy",
+        "description": "Every interface is designed with user behavior in mind. Our UX process ensures intuitive navigation, clean design, accessibility, and strong engagement across all devices.",
+        "category": "web",
+        "page": "web-app-development-services",
+        "slug": "ui-ux-design-web-product-strategy"
+    },
+    {
+        "id": 9,
+        "icon": "FiLayers",
+        "title": "Full-Stack Engineering",
+        "description": "From frontend experiences to backend APIs, databases, authentication systems, and cloud infrastructure — we handle the entire engineering lifecycle with precision and scalability.",
+        "category": "web",
+        "page": "web-app-development-services",
+        "slug": "full-stack-engineering"
+    },
+    {
+        "id": 10,
+        "icon": "FiSmartphone",
+        "title": "Cross-Platform App Development (Flutter & React Native)",
+        "description": "Build once, deploy everywhere. We create beautiful, consistent apps for Android and iOS using Flutter and React Native, reducing cost and time-to-market.",
+        "category": "web",
+        "page": "mobile-app-development-services",
+        "slug": "cross-platform-app-development"
+    },
+    {
+        "id": 11,
+        "icon": "FiCpu",
+        "title": "Native App Development (Kotlin & Swift)",
+        "description": "For applications requiring the highest performance and device-level capabilities, we build fully native apps tailored to the platform's ecosystem.",
+        "category": "web",
+        "page": "mobile-app-development-services",
+        "slug": "native-app-development"
+    },
+    {
+        "id": 12,
+        "icon": "FiZap",
+        "title": "MVP & Rapid Prototyping",
+        "description": "We transform your ideas into functional mobile prototypes and MVPs within weeks — helping you validate features, test user flows, and attract early-stage investment.",
+        "category": "web",
+        "page": "mobile-app-development-services",
+        "slug": "mvp-rapid-prototyping-mobile"
+    },
+    {
+        "id": 13,
+        "icon": "FiCpu",
+        "title": "AI-Powered Mobile Features",
+        "description": "Add intelligence to your mobile apps with AI recommendations, voice recognition, image/video processing, chatbots, and predictive analytics.",
+        "category": "ai",
+        "page": "mobile-app-development-services",
+        "slug": "ai-powered-mobile-features"
+    },
+    {
+        "id": 14,
+        "icon": "FiZap",
+        "title": "Rapid Prototyping",
+        "description": "We create beautiful, clickable prototypes that demonstrate your app's flow, features, and user experience — perfect for pitching, internal alignment, or early user feedback.",
+        "category": "web",
+        "page": "prototyping-and-mvp-services",
+        "slug": "rapid-prototyping"
+    },
+    {
+        "id": 15,
+        "icon": "FiPackage",
+        "title": "Minimum Viable Product (MVP) Development",
+        "description": "Launch a functional version of your product with essential features only. Our MVPs help you test your business model without heavy investment, while ensuring quality and scalability for future expansion.",
+        "category": "web",
+        "page": "prototyping-and-mvp-services",
+        "slug": "mvp-development"
+    },
+    {
+        "id": 16,
+        "icon": "FiTarget",
+        "title": "Product Strategy & UX Architecture",
+        "description": "Our team helps define your value proposition, user journeys, and core features. This ensures your MVP focuses on what matters most for validation and adoption.",
+        "category": "web",
+        "page": "prototyping-and-mvp-services",
+        "slug": "product-strategy-ux-architecture"
+    },
+    {
+        "id": 17,
+        "icon": "FiTrendingUp",
+        "title": "Scalable Engineering for Future Growth",
+        "description": "We build MVPs with clean, modular architecture so your product can scale easily once traction begins.",
+        "category": "web",
+        "page": "prototyping-and-mvp-services",
+        "slug": "scalable-engineering-future-growth"
+    },
+    {
+        "id": 18,
+        "icon": "FiDisc",
+        "title": "Tokenization of Real-World Assets (RWA)",
+        "description": "Convert physical and financial assets — real estate, gold, equity — into compliant digital tokens. Enable liquidity, fractional ownership, and borderless investment.",
+        "category": "blockchain",
+        "page": "blockchain-services",
+        "slug": "tokenization-of-real-world-assets"
+    },
+    {
+        "id": 19,
+        "icon": "FiFileText",
+        "title": "Smart Contract Development & Audits",
+        "description": "Develop custom smart contracts in Rust, Solidity, or Move. Every contract undergoes multi-stage audits, static analysis, and formal verification for maximum security.",
+        "category": "blockchain",
+        "page": "blockchain-services",
+        "slug": "smart-contract-development-audits"
+    },
+    {
+        "id": 20,
+        "icon": "FiGrid",
+        "title": "dApp & Web3 Infrastructure",
+        "description": "From decentralized applications to NFT marketplaces and DAO tooling, we build scalable, user-friendly Web3 products with robust backend architecture.",
+        "category": "blockchain",
+        "page": "blockchain-services",
+        "slug": "dapp-web3-infrastructure"
+    },
+    {
+        "id": 21,
+        "icon": "FiLink",
+        "title": "Chain Integrations",
+        "description": "Deploy and bridge on Solana, XRPL, Polygon, and EVM ecosystems with seamless API and SDK integrations.",
+        "category": "blockchain",
+        "page": "blockchain-services",
+        "slug": "chain-integrations"
+    },
+    {
+        "id": 22,
+        "icon": "FiShield",
+        "title": "Blockchain Consulting & Security Assessment",
+        "description": "Strategize your blockchain journey. We provide architecture audits, regulatory guidance, and proof-of-concept support.",
+        "category": "blockchain",
+        "page": "blockchain-services",
+        "slug": "blockchain-consulting-security-assessment"
+    }
+]

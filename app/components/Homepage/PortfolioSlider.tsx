@@ -162,8 +162,8 @@ export default function PortfolioSlider() {
                                 >
                                     <Heading
                                         as="h2"
-                                        fontSize={{ base: '4xl', md: '7xl' }}
-                                        lineHeight="1"
+                                        fontSize={{ base: '3xl', md: 'display-lg' }}
+                                        lineHeight="tight"
                                         mb={6}
                                         letterSpacing="-0.04em"
                                     >
@@ -196,7 +196,7 @@ export default function PortfolioSlider() {
                                 onClick={prevSlide}
                                 variant="outline"
                                 colorScheme="whiteAlpha.800"
-                                rounded="full"
+                                borderRadius="pill"
                                 size="lg"
                                 _hover={{ bg: '#FF4D00', borderColor: '#FF4D00', transform: 'scale(1.1)' }}
                             />
@@ -206,7 +206,7 @@ export default function PortfolioSlider() {
                                 onClick={nextSlide}
                                 variant="outline"
                                 colorScheme="whiteAlpha.800"
-                                rounded="full"
+                                borderRadius="pill"
                                 size="lg"
                                 _hover={{ bg: '#FF4D00', borderColor: '#FF4D00', transform: 'scale(1.1)' }}
                             />
@@ -233,7 +233,7 @@ export default function PortfolioSlider() {
                                 <Box
                                     w="full"
                                     h="full"
-                                    borderRadius="40px"
+                                    borderRadius="card"
                                     overflow="hidden"
                                     boxShadow="0 50px 100px -20px rgba(0,0,0,0.7)"
                                     position="relative"

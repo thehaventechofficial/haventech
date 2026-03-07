@@ -29,9 +29,10 @@ const Counter = ({ value, label, duration = 2 }: { value: number, label: string,
         <VStack align="flex-start" spacing={2} ref={ref}>
             <Heading
                 as="h3"
-                fontSize={{ base: "4xl", md: "5xl", lg: "6xl" }}
-                fontWeight="800"
+                fontSize={{ base: "3xl", md: "display-sm", lg: "display-md" }}
+                fontWeight="900"
                 color="black"
+                lineHeight="tight"
             >
                 <motion.span>{displayValue}</motion.span>
             </Heading>
@@ -54,9 +55,9 @@ export default function JourneySection() {
                     <VStack align="flex-start" spacing={6} maxW="900px">
                         <MotionHeading
                             as="h2"
-                            fontSize={{ base: "3xl", md: "5xl", lg: "6xl" }}
-                            fontWeight="800"
-                            lineHeight="1.1"
+                            fontSize={{ base: "3xl", md: "display-sm", lg: "display-md" }}
+                            fontWeight="900"
+                            lineHeight="tight"
                             initial={{ opacity: 0, y: 20 }}
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}

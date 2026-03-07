@@ -1,10 +1,10 @@
 import { MetadataRoute } from 'next';
-import { industriesData } from './lib/industriesData';
-import { servicesData } from './lib/servicesData';
+import { getAllIndustrySlugs } from './lib/industries';
+import servicesPagesData from './lib/Jsonfiles/services_pages_data.json';
 import { projects } from './components/Work/WorkData';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://www.Haven Tech.io';
+    const baseUrl = 'https://www.thehaventech.com';
 
     // Static routes
     const staticRoutes = [
@@ -26,25 +26,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     }));
 
     // Dynamic industry routes
-    const industryRoutes = industriesData.map((industry) => ({
-        url: `${baseUrl}/industries/${industry.slug}`,
+    const industryRoutes = getAllIndustrySlugs().map((slug) => ({
+        url: `${baseUrl}/industries/${slug}`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
         priority: 0.7,
     }));
 
     // Dynamic service category routes
-    const serviceCategoryRoutes = servicesData.map((category) => ({
-        url: `${baseUrl}/services/${category.slug}`,
+    const serviceCategoryRoutes = servicesPagesData.map((category) => ({
+        url: `${baseUrl}/services/${category.page}`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
         priority: 0.7,
     }));
 
     // Dynamic individual service routes
-    const individualServiceRoutes = servicesData.flatMap((category) =>
+    const individualServiceRoutes = servicesPagesData.flatMap((category) =>
         category.services.map((service) => ({
-            url: `${baseUrl}/services/${category.slug}/${service.slug}`,
+            url: `${baseUrl}/services/${category.page}/${service.slug}`,
             lastModified: new Date(),
             changeFrequency: 'monthly' as const,
             priority: 0.6,

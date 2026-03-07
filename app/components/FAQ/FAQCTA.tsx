@@ -14,9 +14,10 @@ import {
   Flex
 } from '@chakra-ui/react';
 import { FaArrowRight, FaComments, FaRegLightbulb, FaRocket, FaShieldAlt } from 'react-icons/fa';
-import Link from 'next/link';
+import { useContactPopup } from '../ContactPopup/ContactContext';
 
 export default function CTASection() {
+  const { onOpen } = useContactPopup();
   return (
     <Box
       as="section"
@@ -72,11 +73,11 @@ export default function CTASection() {
           {/* Main Copy */}
           <VStack spacing={6}>
             <Heading
-              fontSize={{ base: "4xl", md: "7xl" }}
+              fontSize={{ base: "4xl", md: "display-md", lg: "display-lg" }}
               fontWeight="900"
               color="white"
               letterSpacing="-0.04em"
-              lineHeight="1"
+              lineHeight="tight"
             >
               Your vision, <br />
               <Text as="span" color="red.600">our engineering.</Text>
@@ -138,8 +139,7 @@ export default function CTASection() {
 
           {/* Action Buttons */}
           <HStack spacing={6} direction={{ base: "column", sm: "row" }}>
-            <Link href="/contact" style={{ width: '100%' }}>
-              <Button
+            <Button
                 size="xl"
                 bg="red.600"
                 color="white"
@@ -147,15 +147,15 @@ export default function CTASection() {
                 h={20}
                 fontSize="lg"
                 fontWeight="900"
-                borderRadius="2xl"
+                borderRadius="pill"
                 rightIcon={<FaArrowRight />}
+                onClick={onOpen}
                 _hover={{ bg: "white", color: "black", transform: "translateY(-5px)" }}
                 transition="all 0.3s"
                 w={{ base: "full", sm: "auto" }}
               >
                 GET STARTED
               </Button>
-            </Link>
           </HStack>
         </VStack>
       </Container>

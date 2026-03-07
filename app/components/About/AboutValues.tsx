@@ -84,7 +84,7 @@ export default function AboutValues() {
                             viewport={{ once: true }}
                             transition={{ duration: 0.6 }}
                         >
-                            <Text color="red.600" fontWeight="bold" fontSize="sm" letterSpacing="0.1em" textTransform="uppercase" mb={2}>
+                            <Text color="red.500" fontWeight="bold" fontSize="sm" letterSpacing="0.1em" textTransform="uppercase" mb={2}>
                                 Our Culture
                             </Text>
                             <Heading fontSize={{ base: "3xl", md: "5xl" }} fontWeight="800">

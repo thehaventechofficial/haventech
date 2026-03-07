@@ -17,7 +17,7 @@ import ReCAPTCHA from 'react-google-recaptcha';
 const contactInfo = [
     { icon: FiMail, title: "Email Us", detail: "muh.faizaan@gmail.com", href: "mailto:muh.faizaan@gmail.com" },
     { icon: FiPhoneCall, title: "Call Us", detail: "+1 929-624-8820", href: "tel:+19296248820" },
-    { icon: FiMapPin, title: "Our Office", detail: "Silver Square, G-11, Islamabad", href: "#" }
+    { icon: FiMapPin, title: "Our Office", detail: "Karachi, Pakistan", href: "#" }
 ];
 
 const serviceOptions = [

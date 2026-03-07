@@ -46,7 +46,7 @@ const ServiceCard = ({ category, index }: { category: ServiceCategory; index: nu
         backdropFilter="blur(10px)"
         border="1px solid"
         borderColor={cardBorder}
-        borderRadius="24px"
+        borderRadius="card"
         boxShadow={`0 10px 30px ${shadowColor}`}
         transition="all 0.3s ease"
         role="group"
@@ -69,14 +69,14 @@ const ServiceCard = ({ category, index }: { category: ServiceCategory; index: nu
           <HStack w="full" justify="space-between">
             <Box
               p={3}
-              borderRadius="12px"
+              borderRadius="inner"
               bg="red.50"
               color="red.500"
               _dark={{ bg: 'red.900', color: 'red.200' }}
             >
               <Icon as={IconComponent} boxSize={6} />
             </Box>
-            <Badge variant="subtle" colorScheme="gray" borderRadius="full" px={3}>
+            <Badge variant="subtle" colorScheme="gray" borderRadius="pill" px={3}>
               {String(index + 1).padStart(2, '0')}
             </Badge>
           </HStack>
@@ -134,15 +134,15 @@ export default function ServicesSection() {
               variant="outline" 
               px={4} 
               py={1} 
-              borderRadius="full"
+              borderRadius="pill"
               textTransform="uppercase"
               letterSpacing="widest"
             >
               Our Expertise
             </Badge>
-            <Heading as="h2" fontSize={{ base: '3xl', md: '5xl' }} fontWeight="800">
+            <Heading as="h2" fontSize={{ base: '3xl', md: 'display-md' }} fontWeight="900" lineHeight="tight">
               Solutions that scale with <br />
-              <Text as="span" color="red.500">your ambition.</Text>
+              <Text as="span" color="red.600">your ambition.</Text>
             </Heading>
             <Text fontSize="lg" color={useColorModeValue('gray.600', 'gray.400')}>
               We combine strategy, design, and technology to build digital products 

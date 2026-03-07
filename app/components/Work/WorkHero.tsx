@@ -1,13 +1,17 @@
+'use client';
+
 import PageHero from '../Common/PageHero';
+import { useContactPopup } from '../ContactPopup/ContactContext';
 
 export default function WorkHero() {
+    const { onOpen } = useContactPopup();
     return (
         <PageHero
             title="We build products people love."
             subtitle="Our Work"
-            image="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=2000&auto=format&fit=crop"
+            image="/images/work.jpg"
             ctaText="GET IN TOUCH"
-            ctaHref="/contact"
+            onCtaClick={onOpen}
         />
     );
 }

@@ -1,0 +1,466 @@
+[
+  {
+    "id": 1,
+    "page": "ai-services",
+    "metadata": {
+      "title": "AI Development Services | LLMs, Agents & MLOps – NCX",
+      "description": "Haven Tech builds custom AI systems including LLMs, AI agents, MLOps pipelines, and intelligent automation solutions.",
+      "openGraph": {
+        "title": "AI Development Services | LLMs, Agents & MLOps – NCX",
+        "description": "Haven Tech builds custom AI systems including LLMs, AI agents, MLOps pipelines, and intelligent automation solutions.",
+        "images": [
+          "https://www.thehaventech.com/images/seo_image.jpg"
+        ]
+      }
+    },
+    "title": "Artificial Intelligence Services – Empower Your Business with Intelligence",
+    "banner": "/videos/abstract1.mp4",
+    "heading": "From Models to Market Impact",
+    "description": "We engineer advanced AI solutions designed to learn, adapt, and evolve in response to dynamic environments and complex datasets. By transforming raw information into actionable insights, our technologies empower businesses to make smarter decisions, optimize processes, and unlock new opportunities. Our approach goes beyond traditional analytics, leveraging cutting-edge algorithms and machine learning models to anticipate trends, identify patterns, and deliver tangible results. With a focus on precision, scalability, and continuous improvement, we turn data into intelligence that drives meaningful impact across industries, enabling organizations to innovate confidently and stay ahead in an increasingly competitive landscape.",
+    "services": [
+      {
+        "id": 1,
+        "slug": "generative-ai-custom-llms",
+        "title": "Generative AI & Custom LLMs",
+        "description": "Fine-tuned models for text, image, and code generation. From GPT-based systems to domain-specific LLMs, we customize AI that understands your business."
+      },
+      {
+        "id": 2,
+        "slug": "ai-agents-voice-interfaces",
+        "title": "AI Agents & Voice Interfaces",
+        "description": "Conversational systems powered by natural language processing, capable of handling calls, chats, and workflows — perfect for enterprises, medical assistants, and customer support."
+      },
+      {
+        "id": 3,
+        "slug": "ai-blockchain-integration",
+        "title": "AI + Blockchain Integration",
+        "description": "Merge intelligence with transparency. We design hybrid systems where AI decision-making is verifiable through blockchain ledgers."
+      },
+      {
+        "id": 4,
+        "slug": "data-engineering-mlops",
+        "title": "Data Engineering & MLOps",
+        "description": "Data pipelines, model deployment, monitoring, and version control using modern frameworks (Ray.io, TensorFlow, PyTorch)."
+      },
+      {
+        "id": 5,
+        "slug": "mobile-ai-solutions",
+        "title": "Mobile AI Solutions",
+        "description": "Integrate AI models into mobile apps for real-time recommendations, recognition, or analytics."
+      }
+    ],
+    "whyChoose": [
+      "Experience with OpenAI, Mistral, and open-source frameworks.",
+      "On-device and cloud inference optimization.",
+      "Privacy-preserving AI (encryption + anonymization).",
+      "End-to-end delivery: design → train → deploy → scale."
+    ],
+    "faqs": {
+      "heading": "FAQs",
+      "items": [
+        {
+          "question": "What kind of AI models do you work with?",
+          "answer": "We work with industry leaders like OpenAI (GPT), Mistral, and Anthropic, as well as open-source models like Llama and custom-trained architectures."
+        },
+        {
+          "question": "Is my business data safe when using AI?",
+          "answer": "Yes. We implement privacy-preserving AI through data anonymization, private cloud hosting, and encryption to ensure your data is never used to train public models."
+        },
+        {
+          "question": "Can you integrate AI into my existing software?",
+          "answer": "Absolutely. We specialize in retrofitting legacy systems with AI capabilities via custom APIs or dedicated middleware."
+        }
+      ]
+    },
+    "cta": {
+      "text": "Book a Free AI Consultation"
+    }
+  },
+  {
+    "id": 2,
+    "page": "web-app-development-services",
+    "metadata": {
+      "title": "Web & Mobile App Development | MVP to Scale – NCX",
+      "description": "Build modern web and mobile applications using React, Next.js, Flutter, and cloud-native architecture.",
+      "openGraph": {
+        "title": "Web & Mobile App Development | MVP to Scale – NCX",
+        "description": "Build modern web and mobile applications using React, Next.js, Flutter, and cloud-native architecture.",
+        "images": [
+          "https://www.thehaventech.com/images/seo_image.jpg"
+        ]
+      }
+    },
+    "banner": "/videos/abstract2.mp4",
+    "title": "Web Development – Fast. Secure. Scalable.",
+    "heading": "Engineering Robust Digital Experiences",
+    "description": "We specialize in building modern, high-performance websites and digital platforms that are meticulously engineered for speed, reliability, and scalability. Whether developing SaaS dashboards, enterprise portals, or custom web applications, we ensure that every product is optimized to deliver a seamless and intuitive user experience. Our solutions prioritize secure data handling, robust architecture, and long-term maintainability, allowing businesses to scale confidently as their needs evolve. By combining cutting-edge technologies with best practices in design and development, we create digital experiences that not only meet immediate goals but also anticipate future growth and challenges, empowering organizations to thrive in an increasingly digital world.",
+    "services": [
+      {
+        "id": 1,
+        "slug": "custom-web-applications",
+        "title": "Custom Web Applications",
+        "description": "We build responsive, high-performance web platforms using React, Next.js, Vue, Laravel, and Node.js. Whether it's a SaaS product, dashboard, marketplace, or internal tool, our systems are cloud-ready, secure, and optimized for global traffic."
+      },
+      {
+        "id": 2,
+        "slug": "prototyping-mvp-development",
+        "title": "Prototyping & MVP Development",
+        "description": "Launch your idea quickly with a functional MVP that validates your concept, attracts investors, and reduces go-to-market time. We design wireframes, workflows, and prototypes before development to ensure clarity and precision."
+      },
+      {
+        "id": 3,
+        "slug": "ui-ux-design-web-product-strategy",
+        "title": "UI/UX Design & Web Product Strategy",
+        "description": "Every interface is designed with user behavior in mind. Our UX process ensures intuitive navigation, clean design, accessibility, and strong engagement across all devices."
+      },
+      {
+        "id": 4,
+        "slug": "full-stack-engineering",
+        "title": "Full-Stack Engineering",
+        "description": "From frontend experiences to backend APIs, databases, authentication systems, and cloud infrastructure — we handle the entire engineering lifecycle with precision and scalability."
+      }
+    ],
+    "technologyStack": {
+      "frontend": [
+        "React",
+        "Next.js",
+        "Vue.js",
+        "TailwindCSS",
+        "HTML5/CSS3"
+      ],
+      "backend": [
+        "Node.js",
+        "ExpressJS",
+        "NestJS",
+        "Laravel",
+        "PHP",
+        "REST & GraphQL APIs"
+      ],
+      "databases": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Firebase Firestore",
+        "Redis"
+      ],
+      "cloudDevOps": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Firebase",
+        "Vercel",
+        "Nginx"
+      ]
+    },
+    "whyChoose": [
+      "Agile, sprint-based delivery model",
+      "24/7 DevOps monitoring & support",
+      "Scalable microservice architecture",
+      "Deep expertise in AI and Blockchain integration",
+      "Dedicated global team across UK, US, SA, and Pakistan"
+    ],
+    "faqs": {
+      "heading": "FAQs",
+      "items": [
+        {
+          "question": "Will my website be mobile-friendly?",
+          "answer": "Yes, all our web applications are built with a 'mobile-first' responsive design approach, ensuring they look and perform perfectly on all devices."
+        },
+        {
+          "question": "How do you ensure the security of the web platform?",
+          "answer": "We follow OWASP security standards, implementing SSL encryption, secure authentication (OAuth/JWT), and regular dependency audits."
+        },
+        {
+          "question": "Can you handle high-traffic spikes?",
+          "answer": "Yes. We build using scalable architectures (like Kubernetes and Serverless) and use CDNs to ensure your platform remains fast under heavy global load."
+        }
+      ]
+    },
+    "cta": {
+      "text": "Book a Free Consultation"
+    }
+  },
+  {
+    "id": 3,
+    "page": "mobile-app-development-services",
+    "metadata": {
+      "title": "Web & Mobile App Development | MVP to Scale – NCX",
+      "description": "Build modern web and mobile applications using React, Next.js, Flutter, and cloud-native architecture.",
+      "openGraph": {
+        "title": "Web & Mobile App Development | MVP to Scale – NCX",
+        "description": "Build modern web and mobile applications using React, Next.js, Flutter, and cloud-native architecture.",
+        "images": [
+          "https://www.thehaventech.com/images/seo_image.jpg"
+        ]
+      }
+    },
+    "banner": "/videos/abstract3.mp4",
+    "title": "Mobile App Development – Intelligent Apps for a Mobile-First World",
+    "heading": "Crafting Mobile Experiences That Drive Engagement",
+    "description": "We design and develop mobile applications that are intuitive, responsive, and built to scale with your business. From startup MVPs to enterprise-grade solutions, our mobile platforms are crafted to deliver exceptional performance, reliability, and a seamless user experience across both iOS and Android devices. By combining thoughtful design, cutting-edge technologies, and robust engineering practices, we ensure that every app not only meets current user needs but is also prepared to evolve with future requirements. Our focus on efficiency, scalability, and usability empowers organizations to engage their audience effectively, streamline operations, and maintain a competitive edge in the fast-paced mobile landscape.",
+    "services": [
+      {
+        "id": 1,
+        "slug": "cross-platform-app-development",
+        "title": "Cross-Platform App Development (Flutter & React Native)",
+        "description": "Build once, deploy everywhere. We create beautiful, consistent apps for Android and iOS using Flutter and React Native, reducing cost and time-to-market."
+      },
+      {
+        "id": 2,
+        "slug": "native-app-development",
+        "title": "Native App Development (Kotlin & Swift)",
+        "description": "For applications requiring the highest performance and device-level capabilities, we build fully native apps tailored to the platform's ecosystem."
+      },
+      {
+        "id": 3,
+        "slug": "mvp-rapid-prototyping-mobile",
+        "title": "MVP & Rapid Prototyping",
+        "description": "We transform your ideas into functional mobile prototypes and MVPs within weeks — helping you validate features, test user flows, and attract early-stage investment."
+      },
+      {
+        "id": 4,
+        "slug": "ai-powered-mobile-features",
+        "title": "AI-Powered Mobile Features",
+        "description": "Add intelligence to your mobile apps with AI recommendations, voice recognition, image/video processing, chatbots, and predictive analytics."
+      }
+    ],
+    "technologyStack": {
+      "crossPlatform": [
+        "Flutter",
+        "React Native"
+      ],
+      "native": [
+        "Kotlin",
+        "Swift"
+      ],
+      "backendAPIs": [
+        "Node.js",
+        "Laravel",
+        "Firebase",
+        "GraphQL",
+        "Supabase"
+      ],
+      "cloudDevOps": [
+        "AWS Amplify",
+        "Firebase",
+        "Docker",
+        "Google Cloud"
+      ]
+    },
+    "whyChoose": [
+      "Experts in performance-optimized mobile apps",
+      "AI & Blockchain integration ready",
+      "Globally distributed engineering team",
+      "Pixel-perfect UI/UX design",
+      "Transparent and agile delivery model"
+    ],
+    "faqs": {
+      "heading": "FAQs",
+      "items": [
+        {
+          "question": "Should I choose Native or Cross-Platform (Flutter/React Native)?",
+          "answer": "Cross-platform is faster and more cost-effective for most startups. Native is better for apps requiring extreme performance or deep hardware integration."
+        },
+        {
+          "question": "How long does it take to get an app into the App Store?",
+          "answer": "Review usually takes 3–7 days. We handle the entire submission process, ensuring all technical and privacy requirements are met."
+        },
+        {
+          "question": "Can the app work offline?",
+          "answer": "Yes, we can implement local database syncing so your users can access core features without an active internet connection."
+        }
+      ]
+    },
+    "cta": {
+      "text": "Start Your Mobile Project"
+    }
+  },
+  {
+    "id": 4,
+    "page": "prototyping-and-mvp-services",
+    "metadata": {
+      "title": "MVP & Rapid Prototyping Services | NCX",
+      "description": "Launch MVPs and prototypes fast—validate ideas, attract investors, and scale with confidence.",
+      "openGraph": {
+        "title": "MVP & Rapid Prototyping Services | NCX",
+        "description": "Launch MVPs and prototypes fast—validate ideas, attract investors, and scale with confidence.",
+        "images": [
+          "https://www.thehaventech.com/images/seo_image.jpg"
+        ]
+      }
+    },
+    "banner": "/videos/abstract4.mp4",
+    "title": "Prototyping & MVP Creation – Turn Ideas Into Reality Faster",
+    "heading": "Build, Test & Launch With Speed and Confidence",
+    "description": "Every successful product begins with a strong, well-validated foundation. Our MVP and prototyping services are designed to help you turn ideas into functional, market-ready products efficiently. By rapidly developing and testing prototypes with real users, we enable you to validate assumptions, gather actionable feedback, and make informed decisions early in the development process. This approach not only reduces risk and conserves resources but also helps attract investors and stakeholders by demonstrating tangible progress. With our expertise, you can accelerate time-to-market, refine your product vision, and build a roadmap for sustainable growth and long-term success.",
+    "services": [
+      {
+        "id": 1,
+        "slug": "rapid-prototyping",
+        "title": "Rapid Prototyping",
+        "description": "We create beautiful, clickable prototypes that demonstrate your app's flow, features, and user experience — perfect for pitching, internal alignment, or early user feedback."
+      },
+      {
+        "id": 2,
+        "slug": "mvp-development",
+        "title": "Minimum Viable Product (MVP) Development",
+        "description": "Launch a functional version of your product with essential features only. Our MVPs help you test your business model without heavy investment, while ensuring quality and scalability for future expansion."
+      },
+      {
+        "id": 3,
+        "slug": "product-strategy-ux-architecture",
+        "title": "Product Strategy & UX Architecture",
+        "description": "Our team helps define your value proposition, user journeys, and core features. This ensures your MVP focuses on what matters most for validation and adoption."
+      },
+      {
+        "id": 4,
+        "slug": "scalable-engineering-future-growth",
+        "title": "Scalable Engineering for Future Growth",
+        "description": "We build MVPs with clean, modular architecture so your product can scale easily once traction begins."
+      }
+    ],
+    "technologyStack": {
+      "frontend": [
+        "React",
+        "Next.js",
+        "Vue.js",
+        "TailwindCSS"
+      ],
+      "mobile": [
+        "Flutter",
+        "React Native",
+        "Kotlin",
+        "Swift"
+      ],
+      "backend": [
+        "Node.js",
+        "NestJS",
+        "Laravel",
+        "Firebase"
+      ],
+      "cloud": [
+        "AWS",
+        "Firebase",
+        "Supabase",
+        "Vercel",
+        "Docker"
+      ]
+    },
+    "whyChoose": [
+      "Reduce development cost by 60–70%",
+      "Validate real demand before full build",
+      "Get investor traction early",
+      "Launch quickly and refine based on real user behavior",
+      "Avoid building unnecessary features",
+      "Experienced in delivering 40+ startup MVPs",
+      "Fast turnaround: prototypes in days, MVPs in weeks",
+      "Integrations with AI and Blockchain for next-gen products",
+      "Agile delivery + transparent sprint demos"
+    ],
+    "faqs": {
+      "heading": "FAQs",
+      "items": [
+        {
+          "question": "How long does an MVP take to build?",
+          "answer": "Typically 3–6 weeks, depending on features and complexity."
+        },
+        {
+          "question": "Can you help define which features should go into the MVP?",
+          "answer": "Yes — our strategists help prioritize what is essential for validation."
+        },
+        {
+          "question": "Can the MVP be connected to AI or blockchain features?",
+          "answer": "Absolutely. We specialize in AI-powered and Web3-enabled MVPs."
+        },
+        {
+          "question": "Do you support the full product after MVP?",
+          "answer": "Yes — we continue with full-scale development, maintenance, and upgrades."
+        },
+        {
+          "question": "Is the prototype clickable or coded?",
+          "answer": "We offer both: Figma prototypes for user testing & pitching, and coded prototypes/MVPs for live testing."
+        }
+      ]
+    },
+    "cta": {
+      "text": "Start Your MVP Today"
+    }
+  },
+  {
+    "id": 5,
+    "page": "blockchain-services",
+    "metadata": {
+      "title": "Blockchain Development Services | Web3 & RWA – NCX",
+      "description": "Haven Tech delivers blockchain solutions including RWA tokenization, smart contracts, dApps, and chain integrations.",
+      "openGraph": {
+        "title": "Blockchain Development Services | Web3 & RWA – NCX",
+        "description": "Haven Tech delivers blockchain solutions including RWA tokenization, smart contracts, dApps, and chain integrations.",
+        "images": [
+          "https://www.thehaventech.com/images/seo_image.jpg"
+        ]
+      }
+    },
+    "banner": "/videos/abstract5.mp4",
+    "title": "Blockchain Services – Build the Future of Trust",
+    "heading": "Powering the Decentralized Economy",
+    "description": "Blockchain is more than just code it is the foundational infrastructure of the new global economy. We design and deploy robust blockchain systems that enable the secure digitization of assets, automation of smart contracts, and seamless connectivity across decentralized ecosystems. By leveraging cutting-edge technologies and best practices, our solutions provide transparency, security, and efficiency, empowering businesses to innovate, streamline operations, and participate confidently in emerging digital markets. With a focus on scalability, reliability, and real-world impact, we transform complex blockchain concepts into practical, value-driven solutions that drive growth and unlock new opportunities.",
+    "services": [
+      {
+        "id": 1,
+        "slug": "tokenization-of-real-world-assets",
+        "title": "Tokenization of Real-World Assets (RWA)",
+        "description": "Convert physical and financial assets — real estate, gold, equity — into compliant digital tokens. Enable liquidity, fractional ownership, and borderless investment."
+      },
+      {
+        "id": 2,
+        "slug": "smart-contract-development-audits",
+        "title": "Smart Contract Development & Audits",
+        "description": "Develop custom smart contracts in Rust, Solidity, or Move. Every contract undergoes multi-stage audits, static analysis, and formal verification for maximum security."
+      },
+      {
+        "id": 3,
+        "slug": "dapp-web3-infrastructure",
+        "title": "dApp & Web3 Infrastructure",
+        "description": "From decentralized applications to NFT marketplaces and DAO tooling, we build scalable, user-friendly Web3 products with robust backend architecture."
+      },
+      {
+        "id": 4,
+        "slug": "chain-integrations",
+        "title": "Chain Integrations",
+        "description": "Deploy and bridge on Solana, XRPL, Polygon, and EVM ecosystems with seamless API and SDK integrations."
+      },
+      {
+        "id": 5,
+        "slug": "blockchain-consulting-security-assessment",
+        "title": "Blockchain Consulting & Security Assessment",
+        "description": "Strategize your blockchain journey. We provide architecture audits, regulatory guidance, and proof-of-concept support."
+      }
+    ],
+    "whyChoose": [
+      "10+ production-ready blockchain projects delivered",
+      "Experience with Metaplex, Anchor, Fireblocks, and Web3.js",
+      "Zero-downtime deployments and high-throughput systems",
+      "Security-first philosophy — every transaction verified and logged"
+    ],
+    "faqs": {
+      "heading": "FAQs",
+      "items": [
+        {
+          "question": "What is Asset Tokenization (RWA)?",
+          "answer": "It is the process of converting ownership rights of a physical asset (like real estate or gold) into digital tokens on a blockchain."
+        },
+        {
+          "question": "Which blockchain is best for my project?",
+          "answer": "We help you choose based on transaction speed (Solana), security (Ethereum), or enterprise compliance (XRPL/Polygon)."
+        },
+        {
+          "question": "How do you ensure smart contracts are secure?",
+          "answer": "We perform rigorous multi-stage audits, including static analysis and manual code reviews, to fix vulnerabilities before deployment."
+        }
+      ]
+    },
+    "cta": {
+      "text": "Discuss Your Tokenization Project"
+    }
+  }
+]

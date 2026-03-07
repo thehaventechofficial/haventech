@@ -179,7 +179,13 @@ const TechnologyWeUse = () => {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
                 >
-                    <MotionHeading className='text-dark-300 !text-[28px] md:!text-[40px] xl:!text-[60px] md:max-w-[60%] font-sora tracking-tighter leading-tight'>
+                    <MotionHeading 
+                        fontSize={{ base: "3xl", md: "display-sm", lg: "display-md" }}
+                        fontWeight="900" 
+                        lineHeight="tight"
+                        letterSpacing="tighter"
+                        maxW={{ md: "60%" }}
+                    >
                         Technology We Use
                     </MotionHeading>
                     <MotionText className='text-dark-300/80 mt-6 md:max-w-[60%]'>
@@ -330,7 +336,8 @@ const TechnologyWeUse = () => {
 
                     <MotionBox
                         animate={controls}
-                        className="relative overflow-hidden rounded-2xl"
+                        className="relative overflow-hidden"
+                        borderRadius="card"
                         style={{
                             boxShadow: "0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
                         }}
@@ -367,7 +374,9 @@ const TechnologyWeUse = () => {
                                                 boxShadow: "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
                                                 borderColor: "#E53E3E40"
                                             }}
-                                            className="bg-white rounded-xl p-6 flex flex-col items-center justify-center"
+                                            className="bg-white flex flex-col items-center justify-center"
+                                            borderRadius="inner"
+                                            p={6}
                                             style={{
                                                 boxShadow: "0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.05)",
                                                 border: "1px solid rgba(0,0,0,0.03)",

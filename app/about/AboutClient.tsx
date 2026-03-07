@@ -10,6 +10,8 @@ import AboutAwards from '../components/About/AboutAwards';
 import AboutCTA from '../components/About/AboutCTA';
 import ContactSection from '../components/ContactPage/ContactFormSection';
 import { Box } from '@chakra-ui/react';
+import CollaborativeSection from '../components/About/Collaborativesection';
+import AboutSection from '../components/About/AboutSection';
 
 export default function AboutClient() {
     return (
@@ -18,8 +20,10 @@ export default function AboutClient() {
             <Box as="main" overflow="hidden">
                 <AboutHero />
                 <AboutStats />
+                <AboutSection />
                 <AboutValues />
-                <AboutTeam />
+                <CollaborativeSection />
+                {/* <AboutTeam /> */}
                 <AboutAwards />
                 <AboutCTA />
                 <ContactSection />

@@ -1,0 +1,1017 @@
+{
+    "finance-fintech": {
+        "slug": "finance-fintech",
+        "title": "Finance & Fintech",
+        "heroTitle": "Reinvent Financial Services with Secure, Intelligent Digital Finance",
+        "heroDescription": "We engineer transformative financial technology solutions that empower institutions to innovate, scale, and deliver exceptional customer experiences in the digital age.",
+        "heroImage": "/images/industries/fintech-hero.jpg",
+        "banner": "/videos/abstract2.mp4",
+        "overview": {
+            "title": "Reinvent Financial Services with Secure, Intelligent Digital Finance",
+            "content": "The global finance and fintech industry is undergoing rapid digital transformation driven by AI, blockchain, and cloud-native platforms. From digital banking and payments to compliance and wealth management, modern financial institutions must innovate securely, scale efficiently, and comply with evolving regulations.",
+            "stats": [
+                {
+                    "value": "$180B",
+                    "label": "Global Fintech Market"
+                },
+                {
+                    "value": "89%",
+                    "label": "Digital Banking Adoption"
+                },
+                {
+                    "value": "3.2B",
+                    "label": "Mobile Banking Users"
+                },
+                {
+                    "value": "65%",
+                    "label": "Growth in Fintech Investment"
+                }
+            ]
+        },
+        "challenges": {
+            "title": "Challenges We Solve",
+            "description": "Financial institutions face growing pressure to modernize legacy systems while maintaining security, compliance, and trust. Traditional infrastructure struggles with scalability, regulatory complexity, fraud risks, and poor customer experience. Fintech startups must innovate quickly while meeting banking-grade security standards. Haven Tech helps finance organizations overcome these challenges by building secure, scalable, and intelligent digital finance platforms using AI, blockchain, and modern cloud architectures.",
+            "items": [
+                {
+                    "title": "Legacy Banking Systems",
+                    "description": "Outdated core systems limit agility, innovation, and integration with modern financial tools."
+                },
+                {
+                    "title": "Regulatory & Compliance Complexity",
+                    "description": "Constantly evolving regulations increase operational risk and compliance overhead."
+                },
+                {
+                    "title": "Fraud & Security Threats",
+                    "description": "Financial platforms are prime targets for fraud, cyberattacks, and data breaches."
+                },
+                {
+                    "title": "Poor Digital Customer Experience",
+                    "description": "Slow, fragmented experiences reduce customer trust and retention."
+                },
+                {
+                    "title": "Scalability Limitations",
+                    "description": "Traditional systems fail under high transaction volumes and peak demand."
+                },
+                {
+                    "title": "Data Silos & Inefficiency",
+                    "description": "Disconnected systems prevent real-time insights and automation."
+                }
+            ]
+        },
+        "solutions": {
+            "title": "Our Industry Solutions",
+            "items": [
+                {
+                    "category": "Digital Banking",
+                    "title": "Modern Banking Platforms",
+                    "description": "Cloud-native banking systems delivering real-time processing, personalization, and seamless digital experiences.",
+                    "features": [
+                        "Mobile Banking Apps",
+                        "Core Banking Systems",
+                        "Open Banking APIs",
+                        "Personal Finance Management"
+                    ],
+                    "technologies": [
+                        "React Native",
+                        "Node.js",
+                        "Microservices",
+                        "AWS"
+                    ],
+                    "benefits": [
+                        "Faster operations",
+                        "Enhanced security",
+                        "Regulatory compliance",
+                        "Improved customer experience"
+                    ]
+                },
+                {
+                    "category": "Payments",
+                    "title": "Next-Generation Payment Systems",
+                    "description": "Secure, real-time digital payment platforms supporting global transactions and digital wallets.",
+                    "features": [
+                        "Digital Wallets",
+                        "Payment Gateways",
+                        "Cross-Border Payments",
+                        "Fraud Detection"
+                    ],
+                    "technologies": [
+                        "Blockchain",
+                        "AI",
+                        "Node.js",
+                        "PostgreSQL"
+                    ],
+                    "benefits": [
+                        "Faster settlements",
+                        "Reduced fraud",
+                        "Global reach",
+                        "Lower transaction costs"
+                    ]
+                },
+                {
+                    "category": "Wealth Management",
+                    "title": "AI-Powered Investment Platforms",
+                    "description": "Personalized wealth and portfolio management solutions driven by AI analytics.",
+                    "features": [
+                        "Portfolio Tracking",
+                        "Robo-Advisors",
+                        "Risk Profiling",
+                        "Performance Analytics"
+                    ],
+                    "technologies": [
+                        "AI Models",
+                        "Python",
+                        "React",
+                        "Cloud Analytics"
+                    ],
+                    "benefits": [
+                        "Personalized investing",
+                        "Better decision-making",
+                        "Higher engagement",
+                        "Scalable advisory services"
+                    ]
+                },
+                {
+                    "category": "Lending",
+                    "title": "Digital Lending Platforms",
+                    "description": "Automated lending solutions with AI-based credit scoring and instant approvals.",
+                    "features": [
+                        "Credit Scoring Engines",
+                        "Loan Origination Systems",
+                        "Automated Risk Assessment"
+                    ],
+                    "technologies": [
+                        "AI",
+                        "Blockchain",
+                        "Node.js",
+                        "AWS"
+                    ],
+                    "benefits": [
+                        "Faster loan approvals",
+                        "Reduced risk",
+                        "Lower operational cost"
+                    ]
+                },
+                {
+                    "category": "Insurance",
+                    "title": "InsurTech Solutions",
+                    "description": "Digitized insurance workflows with automation and predictive analytics.",
+                    "features": [
+                        "Policy Management",
+                        "Claims Automation",
+                        "Risk Analytics"
+                    ],
+                    "technologies": [
+                        "AI",
+                        "Cloud Platforms",
+                        "Microservices"
+                    ],
+                    "benefits": [
+                        "Faster claims",
+                        "Improved customer satisfaction",
+                        "Reduced fraud"
+                    ]
+                },
+                {
+                    "category": "RegTech",
+                    "title": "Compliance Automation Platforms",
+                    "description": "AI-driven compliance and reporting systems for financial institutions.",
+                    "features": [
+                        "KYC/AML Automation",
+                        "Transaction Monitoring",
+                        "Regulatory Reporting"
+                    ],
+                    "technologies": [
+                        "AI",
+                        "Blockchain",
+                        "Data Pipelines"
+                    ],
+                    "benefits": [
+                        "Reduced compliance risk",
+                        "Automated reporting",
+                        "Audit-ready systems"
+                    ]
+                }
+            ]
+        },
+        "cta": {
+            "title": "Ready to Transform Your Financial Services?",
+            "description": "Partner with us to build innovative, secure, and scalable fintech solutions",
+            "text": "Schedule Industry Consultation"
+        }
+    },
+    "real-estate": {
+        "slug": "real-estate",
+        "title": "Real Estate",
+        "heroTitle": "Transform Real-World Property into Liquid, Digital Investment Assets",
+        "heroDescription": "The global real estate industry is one of the largest asset classes in the world, yet remains highly illiquid and inefficient. Haven Tech addresses these challenges by leveraging blockchain, AI, and cloud platforms.",
+        "heroImage": null,
+        "banner": null,
+        "overview": {
+            "title": "Transform Real-World Property into Liquid, Digital Investment Assets",
+            "content": "The global real estate industry is one of the largest asset classes in the world, yet remains highly illiquid and inefficient. Blockchain-based Real-World Asset (RWA) tokenization is reshaping property ownership by enabling fractional access, faster transactions, global participation, and transparent asset management—unlocking new opportunities for investors and institutions.",
+            "stats": [
+                {
+                    "value": "$326T",
+                    "label": "Global Real Estate Market"
+                },
+                {
+                    "value": "70%",
+                    "label": "Assets Remain Illiquid"
+                },
+                {
+                    "value": "24/7",
+                    "label": "Digital Asset Trading Potential"
+                },
+                {
+                    "value": "60%",
+                    "label": "Growth in RWA Tokenization Interest"
+                }
+            ]
+        },
+        "challenges": {
+            "title": "Challenges We Solve",
+            "description": "Traditional real estate investment is constrained by high entry barriers, limited liquidity, slow transactions, and complex legal processes. Investors often face long settlement times, lack of transparency, and restricted access to global markets. Property owners struggle with inefficient asset management, fragmented data, and limited financing options. Additionally, regulatory compliance and cross-border investment introduce further complexity. Haven Tech addresses these challenges by leveraging blockchain, AI, and cloud platforms to digitize property ownership through compliant tokenization frameworks. Our solutions enable fractional ownership, automate compliance, improve transparency, and unlock liquidity—allowing real estate assets to function like modern, programmable financial instruments while remaining legally and operationally secure.",
+            "items": [
+                {
+                    "title": "High Capital Entry Barriers",
+                    "description": "Traditional real estate requires significant upfront capital, limiting access for retail and global investors."
+                },
+                {
+                    "title": "Lack of Liquidity",
+                    "description": "Properties cannot be easily traded, locking capital for long durations."
+                },
+                {
+                    "title": "Slow & Costly Transactions",
+                    "description": "Manual paperwork and intermediaries delay settlements and increase costs."
+                },
+                {
+                    "title": "Limited Transparency",
+                    "description": "Ownership records, valuations, and cash flows are often opaque."
+                },
+                {
+                    "title": "Complex Compliance & Regulation",
+                    "description": "Jurisdiction-specific laws complicate cross-border investment."
+                },
+                {
+                    "title": "Inefficient Asset Management",
+                    "description": "Fragmented systems hinder reporting, governance, and performance tracking."
+                }
+            ]
+        },
+        "solutions": {
+            "title": "Our Industry Solutions",
+            "items": [
+                {
+                    "category": "Property Tokenization",
+                    "title": "Digitize Physical Property into Blockchain Assets",
+                    "description": "Convert residential, commercial, and mixed-use properties into compliant digital tokens representing ownership or economic rights.",
+                    "features": [
+                        "Asset-backed digital tokens",
+                        "Property valuation linkage",
+                        "Automated ownership records",
+                        "Token issuance & lifecycle management"
+                    ],
+                    "technologies": [
+                        "Solana",
+                        "XRPL",
+                        "Polygon",
+                        "Smart Contracts",
+                        "IPFS"
+                    ],
+                    "benefits": [
+                        "Unlock liquidity",
+                        "Faster transactions",
+                        "Immutable ownership records",
+                        "Global investor access",
+                        "Reduced operational overhead"
+                    ]
+                },
+                {
+                    "category": "Fractional Ownership",
+                    "title": "Lower Investment Barriers Through Digital Fractions",
+                    "description": "Enable multiple investors to own fractions of high-value properties using programmable blockchain tokens.",
+                    "features": [
+                        "Fractional token distribution",
+                        "Automated profit sharing",
+                        "Ownership transparency",
+                        "Investor dashboards"
+                    ],
+                    "technologies": [
+                        "Blockchain Tokens",
+                        "Smart Contracts",
+                        "Web Dashboards"
+                    ],
+                    "benefits": [
+                        "Increased investor participation",
+                        "Reduced entry costs",
+                        "Transparent ownership",
+                        "Diversified portfolios"
+                    ]
+                },
+                {
+                    "category": "Investment Platforms",
+                    "title": "Digital Platforms for Global Property Investment",
+                    "description": "Build investor-ready platforms that manage onboarding, investments, returns, and reporting in one secure ecosystem.",
+                    "features": [
+                        "Investor onboarding & KYC",
+                        "Portfolio tracking",
+                        "ROI & yield dashboards",
+                        "Cross-border investment support"
+                    ],
+                    "technologies": [
+                        "React",
+                        "Node.js",
+                        "Blockchain APIs",
+                        "Cloud Infrastructure"
+                    ],
+                    "benefits": [
+                        "Scalable investment operations",
+                        "Enhanced investor trust",
+                        "Real-time performance insights",
+                        "Global market reach"
+                    ]
+                },
+                {
+                    "category": "Asset Management",
+                    "title": "Automate Property Operations & Reporting",
+                    "description": "Manage tokenized assets with AI-powered analytics, reporting, and operational automation.",
+                    "features": [
+                        "Rental income tracking",
+                        "Automated distributions",
+                        "Performance analytics",
+                        "Asset lifecycle management"
+                    ],
+                    "technologies": [
+                        "AI Analytics",
+                        "Cloud Databases",
+                        "Smart Contracts"
+                    ],
+                    "benefits": [
+                        "Operational efficiency",
+                        "Accurate reporting",
+                        "Reduced manual work",
+                        "Data-driven decisions"
+                    ]
+                },
+                {
+                    "category": "Compliance & Governance",
+                    "title": "Built-In Regulatory & Legal Controls",
+                    "description": "Ensure real estate tokenization platforms meet jurisdictional regulations, investor protections, and governance requirements.",
+                    "features": [
+                        "KYC / AML integration",
+                        "Transfer restrictions",
+                        "Investor eligibility rules",
+                        "Audit trails & reporting"
+                    ],
+                    "technologies": [
+                        "Compliance Engines",
+                        "Blockchain Logs",
+                        "Identity APIs"
+                    ],
+                    "benefits": [
+                        "Regulatory confidence",
+                        "Reduced legal risk",
+                        "Audit-ready systems",
+                        "Investor trust"
+                    ]
+                },
+                {
+                    "category": "Secondary Markets",
+                    "title": "Enable Secure Trading of Tokenized Assets",
+                    "description": "Allow investors to buy, sell, or transfer property tokens on regulated secondary markets.",
+                    "features": [
+                        "Token trading mechanisms",
+                        "Liquidity pools",
+                        "Order matching systems",
+                        "Market analytics"
+                    ],
+                    "technologies": [
+                        "DEX Integrations",
+                        "Smart Contracts",
+                        "Trading APIs"
+                    ],
+                    "benefits": [
+                        "Increased liquidity",
+                        "Faster exit options",
+                        "Market-driven pricing",
+                        "Continuous asset availability"
+                    ]
+                }
+            ]
+        },
+        "cta": {
+            "title": "Ready to Digitize and Unlock Your Real Estate Assets?",
+            "description": "Turn physical property into programmable, investable digital assets with Haven Tech.",
+            "text": "Start Real Estate Tokenization"
+        }
+    },
+    "supply-chain": {
+        "slug": "supply-chain",
+        "title": "Supply Chain",
+        "heroTitle": "Optimize Global Supply Chains with Intelligent, Transparent Operations",
+        "heroDescription": "Global supply chains are becoming increasingly complex, interconnected, and data-driven. Rising customer expectations, cross-border trade, and operational disruptions demand real-time visibility, automation, and trust.",
+        "heroImage": null,
+        "banner": null,
+        "overview": {
+            "title": "Optimize Global Supply Chains with Intelligent, Transparent, and Operations",
+            "content": "Global supply chains are becoming increasingly complex, interconnected, and data-driven. Rising customer expectations, cross-border trade, and operational disruptions demand real-time visibility, automation, and trust. AI, blockchain, and cloud technologies are transforming supply chain and logistics operations by enabling transparency, predictive intelligence, and end-to-end efficiency.",
+            "stats": [
+                {
+                    "value": "$16T",
+                    "label": "Global Supply Chain Market"
+                },
+                {
+                    "value": "30%",
+                    "label": "Costs Lost to Inefficiencies"
+                },
+                {
+                    "value": "75%",
+                    "label": "Demand for End-to-End Traceability"
+                },
+                {
+                    "value": "50%",
+                    "label": "Growth in AI-Driven Logistics"
+                }
+            ]
+        },
+        "challenges": {
+            "title": "Challenges We Solve",
+            "description": "Supply chain and logistics organizations face increasing pressure to deliver faster, cheaper, and more reliably while navigating global disruptions, regulatory complexity, and rising costs. Traditional systems suffer from limited visibility, fragmented data, manual processes, and delayed decision-making. Fraud, counterfeit goods, inaccurate forecasting, and lack of trust between stakeholders further impact efficiency and profitability. Haven Tech addresses these challenges by combining AI, blockchain, and cloud-native platforms to create intelligent, transparent, and resilient supply chain ecosystems. Our solutions provide real-time visibility, predictive analytics, secure asset tracking, and automated workflows—allowing logistics providers, manufacturers, and enterprises to reduce risk, improve efficiency, and scale globally with confidence.",
+            "items": [
+                {
+                    "title": "Lack of End-to-End Visibility",
+                    "description": "Disconnected systems prevent real-time tracking of goods and shipments."
+                },
+                {
+                    "title": "Manual & Inefficient Processes",
+                    "description": "Paper-based workflows slow operations and increase errors."
+                },
+                {
+                    "title": "Fraud & Counterfeit Risks",
+                    "description": "Limited traceability enables counterfeit goods and data manipulation."
+                },
+                {
+                    "title": "Poor Demand Forecasting",
+                    "description": "Inaccurate predictions lead to overstocking or supply shortages."
+                },
+                {
+                    "title": "Regulatory & Trade Compliance",
+                    "description": "Cross-border logistics introduces complex compliance requirements."
+                },
+                {
+                    "title": "Operational Disruptions",
+                    "description": "Delays, route failures, and supplier risks impact delivery performance."
+                }
+            ]
+        },
+        "solutions": {
+            "title": "Our Industry Solutions",
+            "items": [
+                {
+                    "category": "Supply Chain Visibility",
+                    "title": "Real-Time End-to-End Supply Chain Monitoring",
+                    "description": "Gain complete visibility across suppliers, warehouses, and distribution networks using unified digital dashboards.",
+                    "features": [
+                        "Real-time shipment tracking",
+                        "Supplier performance monitoring",
+                        "Unified data dashboards",
+                        "Event-based alerts"
+                    ],
+                    "technologies": [
+                        "Cloud Platforms",
+                        "IoT Integrations",
+                        "Blockchain",
+                        "APIs"
+                    ],
+                    "benefits": [
+                        "Improved transparency",
+                        "Faster issue resolution",
+                        "Reduced operational blind spots",
+                        "Better stakeholder coordination"
+                    ]
+                },
+                {
+                    "category": "Logistics Automation",
+                    "title": "Automate Logistics Operations at Scale",
+                    "description": "Streamline warehousing, routing, dispatch, and fulfillment using AI-driven automation.",
+                    "features": [
+                        "Automated order processing",
+                        "Route optimization",
+                        "Warehouse workflow automation",
+                        "Smart scheduling systems"
+                    ],
+                    "technologies": [
+                        "AI Algorithms",
+                        "Workflow Engines",
+                        "Microservices"
+                    ],
+                    "benefits": [
+                        "Reduced manual effort",
+                        "Faster deliveries",
+                        "Lower operational costs",
+                        "Increased efficiency"
+                    ]
+                },
+                {
+                    "category": "Asset Tracking",
+                    "title": "Secure Tracking of Goods and Assets",
+                    "description": "Track assets across their lifecycle using blockchain-based records and IoT integrations.",
+                    "features": [
+                        "Asset lifecycle tracking",
+                        "Tamper-proof data records",
+                        "IoT sensor integrations",
+                        "Provenance verification"
+                    ],
+                    "technologies": [
+                        "Blockchain",
+                        "IoT Devices",
+                        "Smart Contracts"
+                    ],
+                    "benefits": [
+                        "Fraud prevention",
+                        "Authenticity verification",
+                        "Improved accountability",
+                        "Trust between stakeholders"
+                    ]
+                },
+                {
+                    "category": "Trade Finance",
+                    "title": "Digitized Trade Finance Solutions",
+                    "description": "Enable faster, more secure trade finance processes using blockchain and automation.",
+                    "features": [
+                        "Digital letters of credit",
+                        "Automated settlements",
+                        "Smart escrow systems",
+                        "Payment tracking"
+                    ],
+                    "technologies": [
+                        "Blockchain",
+                        "Smart Contracts",
+                        "Secure APIs"
+                    ],
+                    "benefits": [
+                        "Faster settlements",
+                        "Reduced paperwork",
+                        "Improved cash flow",
+                        "Lower transaction risk"
+                    ]
+                },
+                {
+                    "category": "Compliance & Traceability",
+                    "title": "Ensure Regulatory Compliance and Traceability",
+                    "description": "Meet global trade, customs, and regulatory requirements with automated compliance systems.",
+                    "features": [
+                        "Compliance reporting",
+                        "Audit trails",
+                        "Customs documentation",
+                        "Regulatory monitoring"
+                    ],
+                    "technologies": [
+                        "Blockchain Ledgers",
+                        "Compliance Engines",
+                        "Data Pipelines"
+                    ],
+                    "benefits": [
+                        "Reduced compliance risk",
+                        "Audit-ready operations",
+                        "Simplified reporting",
+                        "Increased trust"
+                    ]
+                },
+                {
+                    "category": "Predictive Analytics",
+                    "title": "AI-Driven Forecasting and Optimization",
+                    "description": "Use predictive analytics to anticipate demand, optimize inventory, and mitigate disruptions.",
+                    "features": [
+                        "Demand forecasting",
+                        "Inventory optimization",
+                        "Risk prediction",
+                        "Performance analytics"
+                    ],
+                    "technologies": [
+                        "AI Models",
+                        "Machine Learning",
+                        "Big Data Analytics"
+                    ],
+                    "benefits": [
+                        "Better forecasting accuracy",
+                        "Reduced stockouts",
+                        "Optimized inventory levels",
+                        "Proactive decision-making"
+                    ]
+                }
+            ]
+        },
+        "cta": {
+            "title": "Ready to Build a Smarter, More Resilient Supply Chain?",
+            "description": "Transform logistics operations with AI-driven intelligence and blockchain-powered transparency.",
+            "text": "Optimize Your Supply Chain"
+        }
+    },
+    "healthcare": {
+        "slug": "healthcare",
+        "title": "Healthcare",
+        "heroTitle": "Transform Healthcare Delivery with Secure, Intelligent Digital Health Systems",
+        "heroDescription": "Healthcare and life sciences are undergoing rapid digital transformation driven by AI, data analytics, and interoperable platforms.",
+        "heroImage": null,
+        "banner": null,
+        "overview": {
+            "title": "Transform Healthcare with Secure, Intelligent Digital Health Systems",
+            "content": "Healthcare and life sciences are undergoing rapid digital transformation driven by AI, data analytics, and interoperable platforms. From patient care and diagnostics to clinical research and compliance, modern healthcare systems must deliver accuracy, security, and scalability—while ensuring privacy, regulatory compliance, and improved patient outcomes.",
+            "stats": [
+                {
+                    "value": "$10T",
+                    "label": "Global Healthcare Market"
+                },
+                {
+                    "value": "90%",
+                    "label": "Healthcare Data Unstructured"
+                },
+                {
+                    "value": "65%",
+                    "label": "Growth in AI Adoption"
+                },
+                {
+                    "value": "80%",
+                    "label": "Demand for Digital Health Solutions"
+                }
+            ]
+        },
+        "challenges": {
+            "title": "Challenges We Solve",
+            "description": "Healthcare organizations face increasing pressure to deliver better outcomes with limited resources, fragmented systems, and strict regulatory requirements. Patient data is often siloed across incompatible platforms, making it difficult to gain holistic insights or provide coordinated care. Manual workflows slow operations, while compliance with data privacy laws such as HIPAA and GDPR adds complexity. In life sciences, clinical research and drug development require secure data handling, advanced analytics, and scalable infrastructure. Haven Tech addresses these challenges by building secure, interoperable, and intelligent healthcare platforms using AI, blockchain, and cloud-native technologies. Our solutions enable real-time data access, predictive insights, automation, and transparent audit trails—helping healthcare providers, startups, and research institutions modernize safely and scale confidently.",
+            "items": [
+                {
+                    "title": "Fragmented Patient Data",
+                    "description": "Disconnected systems prevent unified patient records and coordinated care."
+                },
+                {
+                    "title": "Regulatory & Data Privacy Compliance",
+                    "description": "Strict healthcare regulations increase operational and legal risk."
+                },
+                {
+                    "title": "Inefficient Clinical Workflows",
+                    "description": "Manual processes slow care delivery and increase errors."
+                },
+                {
+                    "title": "Limited Diagnostic Accuracy",
+                    "description": "Lack of advanced analytics impacts early detection and outcomes."
+                },
+                {
+                    "title": "Scalability Constraints",
+                    "description": "Legacy systems struggle to support growing patient volumes."
+                },
+                {
+                    "title": "Data Security & Trust Issues",
+                    "description": "Healthcare data is highly sensitive and frequently targeted."
+                }
+            ]
+        },
+        "solutions": {
+            "title": "Our Industry Solutions",
+            "items": [
+                {
+                    "category": "Digital Health Platforms",
+                    "title": "End-to-End Digital Healthcare Systems",
+                    "description": "Build secure platforms that connect patients, providers, and healthcare services in a unified digital ecosystem.",
+                    "features": [
+                        "Patient portals",
+                        "Appointment management",
+                        "Health record access",
+                        "Provider dashboards"
+                    ],
+                    "technologies": [
+                        "React",
+                        "Cloud Platforms",
+                        "Secure APIs",
+                        "Microservices"
+                    ],
+                    "benefits": [
+                        "Improved patient engagement",
+                        "Streamlined operations",
+                        "Centralized data access",
+                        "Scalable healthcare delivery"
+                    ]
+                },
+                {
+                    "category": "Medical AI",
+                    "title": "AI-Driven Clinical Intelligence",
+                    "description": "Use AI models to assist diagnosis, imaging analysis, and clinical decision-making.",
+                    "features": [
+                        "Medical image analysis",
+                        "Predictive diagnostics",
+                        "Clinical decision support",
+                        "Risk scoring systems"
+                    ],
+                    "technologies": [
+                        "AI Models",
+                        "Computer Vision",
+                        "Python",
+                        "Cloud AI"
+                    ],
+                    "benefits": [
+                        "Faster diagnosis",
+                        "Improved accuracy",
+                        "Reduced clinician workload",
+                        "Early disease detection"
+                    ]
+                },
+                {
+                    "category": "Patient Management",
+                    "title": "Centralized Patient Lifecycle Management",
+                    "description": "Manage patient journeys from onboarding to follow-ups with intelligent automation.",
+                    "features": [
+                        "Electronic health records (EHR)",
+                        "Scheduling & reminders",
+                        "Treatment tracking",
+                        "Patient communication"
+                    ],
+                    "technologies": [
+                        "Backend APIs",
+                        "Secure Databases",
+                        "Web & Mobile Apps"
+                    ],
+                    "benefits": [
+                        "Better care coordination",
+                        "Reduced administrative overhead",
+                        "Improved patient satisfaction"
+                    ]
+                },
+                {
+                    "category": "Clinical Data Systems",
+                    "title": "Secure Platforms for Life Sciences & Research",
+                    "description": "Enable structured data management for clinical trials, research, and life sciences analytics.",
+                    "features": [
+                        "Clinical trial data management",
+                        "Research data pipelines",
+                        "Analytics dashboards",
+                        "Data versioning"
+                    ],
+                    "technologies": [
+                        "Data Pipelines",
+                        "AI Analytics",
+                        "Cloud Storage"
+                    ],
+                    "benefits": [
+                        "Faster research insights",
+                        "Secure data collaboration",
+                        "Scalable research operations"
+                    ]
+                },
+                {
+                    "category": "Compliance & Security",
+                    "title": "Built-In Healthcare Compliance Frameworks",
+                    "description": "Ensure compliance with healthcare regulations and protect sensitive patient data.",
+                    "features": [
+                        "HIPAA / GDPR compliance",
+                        "Audit trails",
+                        "Access control systems",
+                        "Encryption & identity management"
+                    ],
+                    "technologies": [
+                        "Blockchain Logs",
+                        "Security APIs",
+                        "Identity Systems"
+                    ],
+                    "benefits": [
+                        "Reduced compliance risk",
+                        "Strong data protection",
+                        "Audit-ready systems",
+                        "Increased trust"
+                    ]
+                },
+                {
+                    "category": "Telemedicine",
+                    "title": "Virtual Care & Remote Monitoring Solutions",
+                    "description": "Enable remote consultations, monitoring, and continuous care through digital channels.",
+                    "features": [
+                        "Video consultations",
+                        "Remote patient monitoring",
+                        "Wearable integrations",
+                        "Virtual prescriptions"
+                    ],
+                    "technologies": [
+                        "WebRTC",
+                        "Mobile Apps",
+                        "IoT Integrations"
+                    ],
+                    "benefits": [
+                        "Expanded care access",
+                        "Reduced hospital visits",
+                        "Continuous patient monitoring",
+                        "Improved care efficiency"
+                    ]
+                }
+            ]
+        },
+        "cta": {
+            "title": "Ready to Build Secure & Intelligent Healthcare Solutions?",
+            "description": "Modernize healthcare delivery and life sciences innovation with AI-powered, compliant digital platforms.",
+            "text": "Build Healthcare Solutions"
+        }
+    },
+    "gaming-metaverse": {
+        "slug": "gaming-metaverse",
+        "title": "Gaming & Metaverse",
+        "heroTitle": "Build Immersive Digital Worlds with Ownership-Driven, Blockchain-Powered Experiences",
+        "heroDescription": "The gaming, metaverse, and NFT ecosystem is redefining digital ownership, player engagement, and virtual economies.",
+        "heroImage": null,
+        "banner": null,
+        "overview": {
+            "title": "Build Immersive Digital Worlds with Ownership-Driven, Blockchain Powered Experiences",
+            "content": "The gaming, metaverse, and NFT ecosystem is redefining digital ownership, player engagement, and virtual economies. With Web3, AI, and immersive technologies, games and virtual worlds are evolving into decentralized ecosystems where users truly own assets, creators monetize fairly, and experiences scale globally across platforms.",
+            "stats": [
+                {
+                    "value": "$200B",
+                    "label": "Global Gaming Market"
+                },
+                {
+                    "value": "3B+",
+                    "label": "Active Gamers Worldwide"
+                },
+                {
+                    "value": "$50B",
+                    "label": "NFT Market Value"
+                },
+                {
+                    "value": "40%",
+                    "label": "Growth in Web3 Gaming Adoption"
+                }
+            ]
+        },
+        "challenges": {
+            "title": "Challenges We Solve",
+            "description": "Traditional gaming and digital platforms limit user ownership, transparency, and monetization. In centralized ecosystems, in-game assets have no real-world value, economies are opaque, and players lack control over their digital identities. Scaling multiplayer infrastructure, preventing cheating, and ensuring fair monetization remain major challenges. In metaverse and NFT platforms, interoperability, security, gas costs, and user onboarding complexity slow adoption. Haven Tech solves these challenges by building scalable Web3 gaming platforms, NFT ecosystems, and metaverse infrastructure powered by blockchain and AI. Our solutions enable true digital ownership, transparent economies, secure asset transfers, and immersive user experiences—allowing studios, creators, and brands to launch future-ready virtual worlds.",
+            "items": [
+                {
+                    "title": "Lack of True Digital Ownership",
+                    "description": "Players do not own in-game assets or control their value."
+                },
+                {
+                    "title": "Scalability & Performance Issues",
+                    "description": "Multiplayer and real-time environments strain legacy systems."
+                },
+                {
+                    "title": "Cheating & Exploits",
+                    "description": "Centralized logic enables manipulation and unfair gameplay."
+                },
+                {
+                    "title": "Complex User Onboarding",
+                    "description": "Wallets, gas fees, and Web3 complexity deter mainstream users."
+                },
+                {
+                    "title": "Monetization Limitations",
+                    "description": "Creators struggle with fair revenue distribution and royalties."
+                },
+                {
+                    "title": "Interoperability Gaps",
+                    "description": "Assets cannot move freely across games or platforms."
+                }
+            ]
+        },
+        "solutions": {
+            "title": "Our Industry Solutions",
+            "items": [
+                {
+                    "category": "Web3 Games",
+                    "title": "Decentralized Games with Player-Owned Economies",
+                    "description": "Build blockchain-based games where players truly own assets, earn rewards, and participate in transparent economies.",
+                    "features": [
+                        "Tokenized in-game assets",
+                        "On-chain game logic",
+                        "Player wallets",
+                        "Decentralized economies"
+                    ],
+                    "technologies": [
+                        "Solana",
+                        "Polygon",
+                        "Smart Contracts",
+                        "Unity Integrations"
+                    ],
+                    "benefits": [
+                        "True asset ownership",
+                        "Transparent economies",
+                        "Reduced cheating",
+                        "Player-driven ecosystems"
+                    ]
+                },
+                {
+                    "category": "NFT Marketplaces",
+                    "title": "Scalable Platforms for Digital Asset Trading",
+                    "description": "Create NFT marketplaces for gaming items, collectibles, and virtual assets with built-in royalties and compliance.",
+                    "features": [
+                        "NFT minting & trading",
+                        "Creator royalties",
+                        "Marketplace dashboards",
+                        "Wallet integrations"
+                    ],
+                    "technologies": [
+                        "Blockchain",
+                        "IPFS",
+                        "React",
+                        "Smart Contracts"
+                    ],
+                    "benefits": [
+                        "New revenue streams",
+                        "Creator empowerment",
+                        "Secure ownership transfer",
+                        "Global accessibility"
+                    ]
+                },
+                {
+                    "category": "Metaverse Economies",
+                    "title": "Virtual Worlds with Real Economic Systems",
+                    "description": "Design metaverse platforms with land ownership, digital currencies, and interactive economies.",
+                    "features": [
+                        "Virtual land tokenization",
+                        "Digital currencies",
+                        "Avatar economies",
+                        "Virtual commerce"
+                    ],
+                    "technologies": [
+                        "Blockchain",
+                        "Game Engines",
+                        "Cloud Infrastructure"
+                    ],
+                    "benefits": [
+                        "Immersive user experiences",
+                        "Monetizable virtual worlds",
+                        "Persistent economies",
+                        "Brand engagement opportunities"
+                    ]
+                },
+                {
+                    "category": "Digital Asset Ownership",
+                    "title": "Player-Centric Digital Identity Systems",
+                    "description": "Enable decentralized identity and ownership systems across games and platforms.",
+                    "features": [
+                        "Wallet-based identities",
+                        "Asset portability",
+                        "Ownership verification",
+                        "Cross-platform profiles"
+                    ],
+                    "technologies": [
+                        "Blockchain Identity",
+                        "Wallet SDKs",
+                        "Smart Contracts"
+                    ],
+                    "benefits": [
+                        "User control",
+                        "Trustless ownership",
+                        "Platform independence",
+                        "Reduced fraud"
+                    ]
+                },
+                {
+                    "category": "Play-to-Earn",
+                    "title": "Incentivized Gameplay & Token Economies",
+                    "description": "Implement play-to-earn mechanics that reward players fairly for participation and achievements.",
+                    "features": [
+                        "Token reward systems",
+                        "In-game economies",
+                        "Staking & rewards",
+                        "Governance mechanisms"
+                    ],
+                    "technologies": [
+                        "Token Contracts",
+                        "DeFi Integrations",
+                        "Game Logic"
+                    ],
+                    "benefits": [
+                        "Increased player engagement",
+                        "Sustainable monetization",
+                        "Community-driven growth"
+                    ]
+                },
+                {
+                    "category": "Interoperability",
+                    "title": "Cross-Platform & Multi-Chain Gaming Infrastructure",
+                    "description": "Build interoperable systems that allow assets and identities to move across games and ecosystems.",
+                    "features": [
+                        "Cross-chain bridges",
+                        "Asset portability",
+                        "Multi-chain support",
+                        "API & SDK integrations"
+                    ],
+                    "technologies": [
+                        "Solana",
+                        "EVM Chains",
+                        "Bridges",
+                        "APIs"
+                    ],
+                    "benefits": [
+                        "Expanded reach",
+                        "Ecosystem growth",
+                        "Reduced platform lock-in",
+                        "Future-proof architecture"
+                    ]
+                }
+            ]
+        },
+        "cta": {
+            "title": "Ready to Build the Next Generation of Digital Worlds?",
+            "description": "Launch immersive gaming, NFT, and metaverse platforms powered by blockchain and AI.",
+            "text": "Build Web3 Gaming Platforms"
+        }
+    }
+}

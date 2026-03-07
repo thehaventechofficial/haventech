@@ -14,6 +14,7 @@ interface PageHeroProps {
     image: string;
     ctaText?: string;
     ctaHref?: string;
+    onCtaClick?: () => void;
 }
 
 export default function PageHero({
@@ -21,7 +22,8 @@ export default function PageHero({
     subtitle,
     image,
     ctaText = "GET IN TOUCH",
-    ctaHref = "/contact"
+    ctaHref = "/contact",
+    onCtaClick
 }: PageHeroProps) {
 
     const HeroContent = ({ isTopLayer }: { isTopLayer: boolean }) => (
@@ -30,7 +32,7 @@ export default function PageHero({
                 direction="column"
                 justify="center"
                 h="100%"
-                pt={{ base: 20, md: 0 }}
+                pt={isTopLayer ? { base: 20, md: 0 } : "165px"}
                 textAlign="left"
             >
                 {subtitle && (
@@ -54,9 +56,9 @@ export default function PageHero({
 
                 <MotionHeading
                     as="h1"
-                    fontSize={{ base: "4xl", sm: "5xl", md: "7xl", lg: "9xl" }}
+                    fontSize={{ base: "4xl", sm: "display-sm", md: "display-md", lg: "display-2xl" }}
                     fontWeight="900"
-                    lineHeight="0.95"
+                    lineHeight="tight"
                     letterSpacing="-0.04em"
                     color={isTopLayer ? "white" : "black"}
                     initial={isTopLayer ? { opacity: 0, y: 30 } : undefined}
@@ -73,7 +75,12 @@ export default function PageHero({
                     transition={{ duration: 0.6, delay: 0.4 }}
                     mt={8}
                 >
-                    <Link href={ctaHref}>
+                    <Link href={ctaHref} onClick={(e) => {
+                        if (onCtaClick) {
+                            e.preventDefault();
+                            onCtaClick();
+                        }
+                    }}>
                         <Button
                             bg={isTopLayer ? "transparent" : "linear-gradient(90deg, rgb(255, 19, 19), rgb(230, 0, 0))"}
                             color={isTopLayer ? "transparent" : "white"}
@@ -101,8 +108,10 @@ export default function PageHero({
         </Container>
     );
 
-    const fullHeight = { base: "60vh", md: "80vh" };
-    const clippedHeight = { base: "35vh", md: "45vh" };
+    const fullHeight = { base: "60vh", md: "68vh" };
+    const clippedHeight = { base: "35vh", md: "40vh" };
+
+    const isVideo = image?.toLowerCase().endsWith('.mp4');
 
     return (
         <Box position="relative" bg="white" overflow="hidden" h={fullHeight}>
@@ -120,15 +129,30 @@ export default function PageHero({
                 overflow="hidden"
             >
                 <Box position="absolute" inset={0} bg="#050505">
-                    <Image
-                        src={image}
-                        alt=""
-                        w="100%"
-                        h="100%"
-                        objectFit="cover"
-                        objectPosition="center"
-                        opacity={0.5}
-                    />
+                    {isVideo ? (
+                        <Box
+                            as="video"
+                            src={image}
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            w="100%"
+                            h="100%"
+                            objectFit="cover"
+                            opacity={0.5}
+                        />
+                    ) : (
+                        <Image
+                            src={image}
+                            alt=""
+                            w="100%"
+                            h="100%"
+                            objectFit="cover"
+                            objectPosition="center"
+                            opacity={0.5}
+                        />
+                    )}
                     <Box
                         position="absolute"
                         inset={0}
@@ -136,7 +160,7 @@ export default function PageHero({
                     />
                 </Box>
 
-                <Box position="absolute" top={0} left={0} right={0} h={fullHeight}>
+                <Box position="absolute" top={'80px'} left={0} right={0} h={fullHeight} >
                     <HeroContent isTopLayer={true} />
                 </Box>
             </Box>

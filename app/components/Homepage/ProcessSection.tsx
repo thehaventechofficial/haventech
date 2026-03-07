@@ -112,9 +112,10 @@ export default function ProcessSection() {
                 <Box mb={20}>
                     <Heading
                         as="h2"
-                        fontSize={{ base: '3xl', md: '5xl', lg: '6xl' }}
-                        fontWeight="800"
+                        fontSize={{ base: '3xl', md: 'display-sm', lg: 'display-md' }}
+                        fontWeight="900"
                         letterSpacing="tight"
+                        lineHeight="tight"
                         mb={4}
                     >
                         Our product <br />
@@ -170,7 +171,7 @@ export default function ProcessSection() {
                             top="150px"
                             w="100%"
                             h="500px"
-                            borderRadius="3xl"
+                            borderRadius="card"
                             overflow="hidden"
                             boxShadow="2xl"
                             bg="whiteAlpha.50"

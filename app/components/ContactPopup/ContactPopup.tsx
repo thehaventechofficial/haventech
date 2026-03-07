@@ -42,7 +42,7 @@ import "react-phone-input-2/lib/style.css";
 const contactInfo = [
     { icon: <FiMail size={20} />, text: 'muh.faizaan@gmail.com', link: 'mailto:muh.faizaan@gmail.com' },
     { icon: <FiPhoneCall size={20} />, text: '+1 9296248820', link: 'tel:+19296248820' },
-    { icon: <FiMapPin size={20} />, text: '25 Mann Island, Liverpool, England, L3 1BP', link: '#' }
+    { icon: <FiMapPin size={20} />, text: 'Karachi, Pakistan', link: '#' }
 ];
 
 const socialLinks = [

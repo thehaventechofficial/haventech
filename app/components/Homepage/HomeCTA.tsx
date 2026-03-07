@@ -15,10 +15,12 @@ import {
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 import { FiArrowRight, FiPlus } from 'react-icons/fi';
+import { useContactPopup } from '../ContactPopup/ContactContext';
 
 const MotionBox = motion(Box);
 
 export default function HomeCTA() {
+    const { onOpen } = useContactPopup();
     return (
         <Box
             as="section"
@@ -89,30 +91,29 @@ export default function HomeCTA() {
                             whileHover={{ x: 10 }}
                             transition={{ duration: 0.3 }}
                         >
-                            <Link href="/contact">
-                                <Button
-                                    size="lg"
-                                    variant="unstyled"
-                                    display="flex"
-                                    alignItems="center"
-                                    gap={6}
-                                    color="white"
-                                    _hover={{ color: "red.500" }}
+                            <Button
+                                onClick={onOpen}
+                                size="lg"
+                                variant="unstyled"
+                                display="flex"
+                                alignItems="center"
+                                gap={6}
+                                color="white"
+                                _hover={{ color: "red.500" }}
+                            >
+                                <Circle
+                                    size="80px"
+                                    border="1px solid"
+                                    borderColor="whiteAlpha.400"
+                                    _groupHover={{ borderColor: "red.500" }}
                                 >
-                                    <Circle
-                                        size="80px"
-                                        border="1px solid"
-                                        borderColor="whiteAlpha.400"
-                                        _groupHover={{ borderColor: "red.500" }}
-                                    >
-                                        <Icon as={FiArrowRight} boxSize={8} />
-                                    </Circle>
-                                    <VStack align="flex-start" spacing={0}>
-                                        <Text fontSize="xl" fontWeight="700">LET&apos;S CONNECT</Text>
-                                        <Text fontSize="xs" color="whiteAlpha.500">Response within 24hrs</Text>
-                                    </VStack>
-                                </Button>
-                            </Link>
+                                    <Icon as={FiArrowRight} boxSize={8} />
+                                </Circle>
+                                <VStack align="flex-start" spacing={0}>
+                                    <Text fontSize="xl" fontWeight="700">LET&apos;S CONNECT</Text>
+                                    <Text fontSize="xs" color="whiteAlpha.500">Response within 24hrs</Text>
+                                </VStack>
+                            </Button>
                         </MotionBox>
                     </VStack>
                 </Flex>

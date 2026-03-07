@@ -47,7 +47,7 @@ const StatItem = ({ value, label, index }: { value: string, label: string, index
 
 export default function AboutStats() {
     return (
-        <Box py={{ base: 12, md: 24 }} bg={useColorModeValue('white', '#050505')}>
+        <Box pb={{ base: 12, md: 24 }} bg={useColorModeValue('white', '#050505')}>
             <Container maxW="1400px">
                 <Stack spacing={16}>
                     <motion.div
