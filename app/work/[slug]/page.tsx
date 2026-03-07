@@ -24,7 +24,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
             title: `${project.title} | AI & Blockchain Case Study`,
             description: project.description,
             url: `https://www.thehaventech.com/work/${slug}`,
-            images: [{ url: project.thumbnail }],
+            images: [
+                { url: "/images/OG-image.png" },
+                { url: project.thumbnail }
+            ],
         },
         alternates: {
             canonical: `https://www.thehaventech.com/work/${slug}`,

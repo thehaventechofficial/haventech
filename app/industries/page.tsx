@@ -8,6 +8,7 @@ export const metadata: Metadata = {
         title: "Industries We Serve | Enterprise AI & Blockchain Solutions",
         description: "Discover how Haven Tech transforms businesses across Fintech, Healthcare, E-Commerce, Real Estate, and more using AI and Blockchain technology.",
         url: "https://www.thehaventech.com/industries",
+        images: [{ url: "/images/OG-image.png" }],
     },
     alternates: {
         canonical: "https://www.thehaventech.com/industries",

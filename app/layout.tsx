@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     url: "https://www.thehaventech.com/",
     siteName: "Haven Tech",
     images: [{
-      url: "/images/seo_image.jpg",
+      url: "/images/OG-image.png",
       width: 1200,
       height: 630,
       alt: "Haven Tech AI & Blockchain Engineering"
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "AI & Blockchain Engineering Company | Haven Tech",
     description: "Haven Tech builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
-    images: ["/images/seo_image.jpg"],
+    images: ["/images/OG-image.png"],
     creator: "@TheHavenTech",
   },
   alternates: {

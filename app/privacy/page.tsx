@@ -10,7 +10,7 @@ export const metadata: Metadata = {
         title: "Privacy Policy | Haven Tech",
         description: "Read Haven Tech's privacy policy to understand how we collect, use, and protect your data in our AI and blockchain engineering projects.",
         url: "https://www.thehaventech.com/privacy",
-        images: [{ url: "/images/seo_image.jpg" }],
+        images: [{ url: "/images/OG-image.png" }],
     },
     alternates: {
         canonical: "https://www.thehaventech.com/privacy",

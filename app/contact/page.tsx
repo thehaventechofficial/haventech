@@ -14,7 +14,7 @@ export const metadata: Metadata = {
         title: "Contact Us | AI & Blockchain Solutions | Haven Tech",
         description: "Get in touch with Haven Tech for project inquiries, collaborations, or any questions about our AI and blockchain engineering services.",
         url: "https://www.thehaventech.com/contact",
-        images: [{ url: "/images/seo_image.jpg" }],
+        images: [{ url: "/images/OG-image.png" }],
     },
     alternates: {
         canonical: "https://www.thehaventech.com/contact",

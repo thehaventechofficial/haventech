@@ -9,7 +9,7 @@ export const metadata: Metadata = {
         title: "About Us | AI & Blockchain Engineering Experts | Haven Tech",
         description: "Learn about Haven Tech's mission to build the future of AI and blockchain. Our team of experts delivers scalable enterprise solutions and innovative digital products.",
         url: "https://www.thehaventech.com/about",
-        images: [{ url: "/images/seo_image.jpg" }],
+        images: [{ url: "/images/OG-image.png" }],
     },
     alternates: {
         canonical: "https://www.thehaventech.com/about",

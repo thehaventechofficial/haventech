@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     description: "Haven Tech builds AI systems, blockchain platforms, and scalable digital products. From MVPs to enterprise solutions across global markets.",
     url: "https://www.thehaventech.com/",
     images: [{
-      url: "/images/seo_image.jpg",
+      url: "/images/OG-image.png",
       width: 1200,
       height: 630,
       alt: "Haven Tech AI & Blockchain Engineering"

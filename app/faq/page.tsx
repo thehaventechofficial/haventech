@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "FAQs | AI & Blockchain Engineering Questions | Haven Tech",
     description: "Find answers to commonly asked questions about Haven Tech's AI systems, blockchain platforms, and digital product engineering services.",
     url: "https://www.thehaventech.com/faq",
-    images: [{ url: "/images/seo_image.jpg" }],
+    images: [{ url: "/images/OG-image.png" }],
   },
   alternates: {
     canonical: "https://www.thehaventech.com/faq",

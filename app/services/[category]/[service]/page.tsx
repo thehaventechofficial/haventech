@@ -30,7 +30,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
             title: serviceData.metadata.openGraph.title,
             description: serviceData.metadata.openGraph.description,
             url: `https://www.thehaventech.com/services/${serviceData.slug}`,
-            images: serviceData.metadata.openGraph.images.map(img => ({ url: img })),
+            images: [
+                { url: "/images/OG-image.png" },
+                ...serviceData.metadata.openGraph.images.map(img => ({ url: img }))
+            ],
         },
         alternates: {
             canonical: `https://www.thehaventech.com/services/${serviceData.slug}`,

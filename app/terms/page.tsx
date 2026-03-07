@@ -10,7 +10,7 @@ export const metadata: Metadata = {
         title: "Terms and Conditions | Haven Tech",
         description: "Review the terms and conditions for using Haven Tech's AI, blockchain, and digital engineering services.",
         url: "https://www.thehaventech.com/terms",
-        images: [{ url: "/images/seo_image.jpg" }],
+        images: [{ url: "/images/OG-image.png" }],
     },
     alternates: {
         canonical: "https://www.thehaventech.com/terms",

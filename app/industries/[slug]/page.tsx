@@ -28,10 +28,18 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
             title: `${industry.title} | Enterprise AI & Blockchain Solutions`,
             description: industry.heroDescription,
             url: `https://www.thehaventech.com/industries/${slug}`,
-            images: [{
-                url: displayImage,
-                alt: industry.title
-            }],
+            images: [
+                {
+                    url: "/images/OG-image.png",
+                    width: 1200,
+                    height: 630,
+                    alt: "Haven Tech AI & Blockchain Engineering"
+                },
+                {
+                    url: displayImage,
+                    alt: industry.title
+                }
+            ],
         },
         alternates: {
             canonical: `https://www.thehaventech.com/industries/${slug}`,
