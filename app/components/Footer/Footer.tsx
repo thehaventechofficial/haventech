@@ -17,11 +17,11 @@ const footerLinks = [
     {
         title: 'Industries',
         links: [
-            { name: 'Fintech & Banking', href: '/industries/fintech' },
+            { name: 'Finance & Fintech', href: '/industries/finance-fintech' },
             { name: 'Healthcare', href: '/industries/healthcare' },
-            { name: 'E-Commerce & Retail', href: '/industries/ecommerce' },
+            { name: 'Supply Chain', href: '/industries/supply-chain' },
             { name: 'Real Estate', href: '/industries/real-estate' },
-            { name: 'Travel & Hospitality', href: '/industries/travel-hospitality' },
+            { name: 'Gaming & Metaverse', href: '/industries/gaming-metaverse' },
         ]
     },
     {

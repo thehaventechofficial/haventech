@@ -11,11 +11,11 @@ import { useContactPopup } from '../ContactPopup/ContactContext';
 import Image from 'next/image';
 
 const industriesItems = [
-  { name: 'Fintech & Banking', href: '/industries/fintech', icon: BsBank },
+  { name: 'Finance & Fintech', href: '/industries/finance-fintech', icon: BsBank },
   { name: 'Real Estate & RWA', href: '/industries/real-estate', icon: BsBuildings },
-  { name: 'E-Commerce & Retail', href: '/industries/ecommerce', icon: BsTruck },
   { name: 'Healthcare & Life Sciences', href: '/industries/healthcare', icon: BsHeartPulse },
-  { name: 'Travel & Hospitality', href: '/industries/travel-hospitality', icon: AiOutlineGlobal },
+  { name: 'Supply Chain & Logistics', href: '/industries/supply-chain', icon: BsTruck },
+  { name: 'Gaming & Metaverse', href: '/industries/gaming-metaverse', icon: BsController },
 ];
 
 const regionsItems = [
