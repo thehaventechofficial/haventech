@@ -21,6 +21,7 @@ import Link from 'next/link';
 import { BsArrowRight, BsCheckCircleFill } from 'react-icons/bs';
 import PageHero from '@/app/components/Common/PageHero';
 import { useContactPopup } from '@/app/components/ContactPopup/ContactContext';
+import FAQSection from '@/app/components/FAQSection/FAQSection';
 
 interface CategoryClientProps {
     categoryData: any;
@@ -137,7 +138,7 @@ export default function CategoryClient({ categoryData }: CategoryClientProps) {
                 )}
 
                 {/* FAQs Section */}
-                {categoryData.faqs && (
+                {/* {categoryData.faqs && (
                     <Box mb={20}>
                         <Heading as="h3" size="xl" mb={10} color="gray.800">
                             {categoryData.faqs.heading}
@@ -164,7 +165,8 @@ export default function CategoryClient({ categoryData }: CategoryClientProps) {
                             ))}
                         </Accordion>
                     </Box>
-                )}
+                )} */}
+                <FAQSection faqs={categoryData.faqs}/>
 
                 {/* CTA Section */}
                 <Box
@@ -173,13 +175,14 @@ export default function CategoryClient({ categoryData }: CategoryClientProps) {
                     p={{ base: 10, md: 20 }}
                     textAlign="center"
                     color="white"
+                    mt={20}
                 >
                     <Heading size="2xl" mb={8} lineHeight="short">
                         {categoryData.cta.text}
                     </Heading>
                     <Button
                         size="lg"
-                        bg="brand.red"
+                        bg="red.500"
                         color="white"
                         px={12}
                         h={16}

@@ -306,7 +306,7 @@ const MotionBox = motion(Box);
 const GLOBAL_STYLES = `
   @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
 `;
-function ServiceRow({ title, description, index, totalProgress }) {
+function ServiceRow({ title, description, index, totalProgress , slug}) {
     const start = 0.55 + index * 0.045;
     const end = start + 0.08;
     const rowOpacity = useTransform(totalProgress, [start, end], [0, 1]);
@@ -343,7 +343,7 @@ function ServiceRow({ title, description, index, totalProgress }) {
 
             <Flex
                 as="a"
-                href="#"
+                href={`/services/${slug}`}
                 align="center"
                 gap={1.5}
                 fontSize="xs"
@@ -678,6 +678,7 @@ function DesktopServicesSection() {
                             key={s.title}
                             title={s.title}
                             description={s.description}
+                            slug={s.slug}
                             index={i}
                             totalProgress={scrollYProgress}
                         />
