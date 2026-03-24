@@ -69,8 +69,6 @@ export default function JobOpenings() {
                                 textAlign="left"
                                 role="group"
                                 cursor="pointer"
-                                // @ts-ignore
-                                transition="all 0.3s"
                                 _hover={{ bg: "white", borderColor: "red.500" }}
                             >
                                 <VStack align="flex-start" spacing={4}>

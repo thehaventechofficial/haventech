@@ -59,8 +59,6 @@ export default function HiringProcess() {
                                 border="1px solid"
                                 borderColor="whiteAlpha.100"
                                 backdropFilter="blur(10px)"
-                                // @ts-ignore
-                                transition="all 0.3s"
                                 _hover={{ borderColor: "red.500", transform: "translateY(-10px)" }}
                             >
                                 <Flex

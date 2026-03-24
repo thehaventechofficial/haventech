@@ -2,7 +2,7 @@
 
 import { useState, useRef } from "react";
 import { Box, Text, Flex, Badge } from "@chakra-ui/react";
-import { motion, AnimatePresence, useInView } from "framer-motion";
+import { motion, AnimatePresence, useInView, Variants } from "framer-motion";
 import { RiQuestionLine, RiAddLine, RiSubtractLine, RiChat3Line } from "react-icons/ri";
 
 const MotionBox = motion(Box);
@@ -29,13 +29,16 @@ const containerVariants = {
     },
 };
 
-const itemVariants = {
-    hidden: { opacity: 0, y: 28 },
-    visible: {
-        opacity: 1,
-        y: 0,
-        transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+const itemVariants: Variants = {
+  hidden: { opacity: 0, y: 28 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 0.6,
+      ease: [0.22, 1, 0.36, 1] as [number, number, number, number],
     },
+  },
 };
 
 const answerVariants = {
@@ -75,7 +78,7 @@ function FAQCard({ faq, index, isOpen, onToggle }: {
                     ? "0"
                     : "0 2px 12px rgba(0,0,0,0.05)"
             }
-            transition="border-color 0.3s ease, box-shadow 0.3s ease"
+            // transition="border-color 0.3s ease, box-shadow 0.3s ease"
             _hover={{
                 borderColor: isOpen ? "red.400" : "red.200",
                 boxShadow: isOpen

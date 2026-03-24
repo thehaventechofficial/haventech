@@ -70,8 +70,6 @@ export default function CareerPerks() {
                                 border="1px solid"
                                 borderColor="gray.100"
                                 shadow="sm"
-                                // @ts-ignore
-                                transition="all 0.3s"
                                 _hover={{ shadow: "xl", borderColor: "red.500", transform: "translateY(-5px)" }}
                             >
                                 <Heading fontSize="2xl" fontWeight="700" mb={4}>
