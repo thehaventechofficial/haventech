@@ -33,14 +33,14 @@ export const projects: Project[] = [
             'Zero-lag dashboard for managing global marketing campaigns'
         ],
         stats: [
-            { label: 'Clients Helped', value: '100+' },
+            { label: 'Clients Helped', value: '50+' },
             { label: 'Avg ROI', value: '3.5x' },
             { label: 'Uptime', value: '100%' }
         ],
         technologies: ['Next.js', 'Chakra UI', 'Node.js', 'Tailwindcss'],
         images: [
             'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2000&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1551288049-bbbda5366392?q=80&w=2000&auto=format&fit=crop'
+            'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2000&auto=format&fit=crop'
         ]
     },
     {
@@ -115,13 +115,13 @@ export const projects: Project[] = [
         ],
         stats: [
             { label: 'CVs Managed', value: '100k+' },
-            { label: 'Agency Partners', value: '500+' },
+            { label: 'Agency Partners', value: '40+' },
             { label: 'Cost Saved', value: '30%' }
         ],
         technologies: ['MongoDB', 'AWS', 'Next.js', 'i18next'],
         images: [
-            'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2000&auto=format&fit=crop',
-            'https://images.unsplash.com/photo-1521791136364-798a7bc0d26e?q=80&w=2000&auto=format&fit=crop'
+            'https://images.pexels.com/photos/6804068/pexels-photo-6804068.jpeg?_gl=1*towoj4*_ga*MTM4MDAzNDM3MS4xNzU2NzYwNTc2*_ga_8JE65Q40S6*czE3NzU1MDY2NjAkbzgkZzEkdDE3NzU1MDY2ODAkajQwJGwwJGgw',
+            'https://images.pexels.com/photos/6804068/pexels-photo-6804068.jpeg?_gl=1*towoj4*_ga*MTM4MDAzNDM3MS4xNzU2NzYwNTc2*_ga_8JE65Q40S6*czE3NzU1MDY2NjAkbzgkZzEkdDE3NzU1MDY2ODAkajQwJGwwJGgw'
         ]
     },
     {

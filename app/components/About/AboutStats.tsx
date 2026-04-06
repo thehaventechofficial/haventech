@@ -5,10 +5,10 @@ import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 
 const stats = [
-    { value: '1,000+', label: 'Projects Completed' },
-    { value: '300+', label: 'Happy Customers' },
-    { value: '50+', label: 'Team Members' },
-    { value: '10+', label: 'Years Experience' },
+    { value: '70+', label: 'Projects Completed' },
+    { value: '50+', label: 'Happy Customers' },
+    { value: '10+', label: 'Team Members' },
+    { value: '7+', label: 'Years Experience' },
 ];
 
 const StatItem = ({ value, label, index }: { value: string, label: string, index: number }) => {
