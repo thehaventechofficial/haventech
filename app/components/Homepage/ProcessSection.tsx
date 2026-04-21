@@ -18,13 +18,13 @@ const processes = [
         number: '02',
         title: 'Design',
         description: 'Crafting a minimal viable product (MVP) that balances design with core functionality, maximizing value and user satisfaction.',
-        img: '/images/design.jpg'
+        img: '/images/design.webp'
     },
     {
         number: '03',
         title: 'Develop',
         description: 'Developing end-to-end solutions with a focus on feasibility assessment, architecture design, and agile process to ensure rapid, high-quality delivery.',
-        img: '/images/develop.jpg'
+        img: '/images/develop.webp'
     },
     {
         number: '04',
@@ -42,7 +42,7 @@ const processes = [
         number: '06',
         title: 'Support',
         description: 'Providing ongoing support and enhancements to ensure continued product success.',
-        img: 'images/support.jpg'
+        img: '/images/support.webp'
     }
 ];
 
