@@ -172,7 +172,7 @@ const TechnologyWeUse = () => {
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8 }}
         >
-            <Box className='max-w-[1400px] mx-auto'>
+            <Box className='max-w-[1400px] mx-4 sm:mx-auto'>
                 <MotionBox
                     mb={16}
                     initial={{ opacity: 0, y: 20 }}

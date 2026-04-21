@@ -194,9 +194,9 @@ const Header = () => {
   return (
     <div className="relative">
       <header className={`fixed top-0 left-0 z-50 transition-all duration-500 w-full`}>
-        <div className={`mx-auto transition-all duration-500 ease-in-out ${isScrolled ? 'max-w-[1400px] mt-4' : 'max-w-full mt-0'}`}>
+        <div className={`mx-auto transition-all duration-500 ease-in-out ${isScrolled ? 'max-w-[1400px] !mx-4 sm:!mx-auto mt-4' : 'max-w-full mt-0'}`}>
           <div
-            className={`bg-white/80 backdrop-blur-xl flex items-center justify-between gap-x-4 py-1 px-6 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border border-white/20 transition-all duration-300 ${isScrolled ? 'rounded-full' : 'rounded-none'}`}
+            className={`bg-white/80 backdrop-blur-xl flex items-center justify-between gap-x-4 py-4 px-6 md:py-2 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)] border border-white/20 transition-all duration-300 ${isScrolled ? 'rounded-full' : 'rounded-none'}`}
           >
             <div className="flex items-center gap-x-8">
               <Link href="/" className="flex items-center gap-2 group">

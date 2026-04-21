@@ -49,7 +49,7 @@ const Footer = () => {
         <footer className="relative bg-white border-t border-neutral-200">
 
             <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-red-500/40 to-transparent" />
-            <div className="max-w-[1400px] mx-auto px-6 pt-24 pb-14">
+            <div className="max-w-[1400px] mx-auto px-4 pt-24 pb-14">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr_1fr] gap-14">
                     <div className="space-y-7 pr-6 border-r border-neutral-100 lg:border-r">
                         <Link href="/" className="inline-block">
