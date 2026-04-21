@@ -65,10 +65,11 @@ const Footer = () => {
                             {[
                                 { Icon: BsTwitterX, href: 'https://twitter.com/TheHavenTech' },
                                 { Icon: BsLinkedin, href: 'https://linkedin.com/company/thehaventech' },
-                                { Icon: BsGithub, href: 'https://github.com/thehaventech' }
+                                { Icon: BsGithub, href: 'https://github.com/thehaventechofficial' }
                             ].map(({ Icon, href }, i) => (
                                 <Link
                                     key={i}
+                                    target='_blank'
                                     href={href}
                                     className="w-11 h-11 rounded-inner border border-neutral-200 bg-white 
                                                flex items-center justify-center text-neutral-500 

@@ -83,7 +83,7 @@ export default function RootLayout({
     "sameAs": [
       "https://twitter.com/TheHavenTech",
       "https://linkedin.com/company/thehaventech",
-      "https://github.com/thehaventech"
+      "https://github.com/thehaventechofficial"
     ]
   };
 
