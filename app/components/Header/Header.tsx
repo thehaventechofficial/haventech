@@ -233,9 +233,9 @@ const Header = () => {
                             animate={{ opacity: 1, y: 0, scale: 1 }}
                             exit={{ opacity: 0, y: 15, scale: 0.95 }}
                             transition={{ duration: 0.2, ease: "easeOut" }}
-                            className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-[1100px]"
+                            className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-[1100px] border-2 border-[red]"
                           >
-                            <div className="bg-white rounded-card shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-neutral-100 p-10 grid grid-cols-3 gap-x-12 gap-y-12">
+                            <div className="bg-white rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-neutral-100 p-10 grid grid-cols-3 gap-x-12 gap-y-12">
                               {serviceCategories.map((category) => (
                                 <div key={category.title} className="space-y-6">
                                   <div className="flex items-center gap-3">
@@ -277,7 +277,7 @@ const Header = () => {
                             transition={{ duration: 0.2, ease: "easeOut" }}
                             className="absolute left-0 top-full pt-4 w-64"
                           >
-                            <div className="bg-white rounded-card shadow-xl border border-neutral-100 p-3">
+                            <div className="bg-white rounded-2xl shadow-xl border border-neutral-100 p-3">
                               {(link.dropdown === 'industries' ? industriesItems : regionsItems).map((item) => (
                                 <Link
                                   key={item.name}

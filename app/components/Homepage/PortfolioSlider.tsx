@@ -26,7 +26,7 @@ const portfolioItems = [
         title: 'Sorsify',
         description:
             'A comprehensive digital solutions agency platform providing scalable marketing, 24/7 omnichannel support, and Shopify ecommerce development for global enterprises.',
-        image: '/images/sorsify.png',
+        image: '/images/sorsify-mockup.png',
     },
     {
         id: 2,
@@ -35,7 +35,7 @@ const portfolioItems = [
         title: 'Crypto Gaming',
         description:
         'A Web3 gaming hub integrated with the Solana blockchain. Features five arcade-style games with NFT-gated access and on-chain progress tracking.',
-        image: '/images/CNM.png',
+        image: '/images/cryptogaming.png',
     },
     {
         id: 3,
@@ -44,7 +44,7 @@ const portfolioItems = [
         title: 'Cyber Unicorns',
         description:
             'An interactive cybersecurity education platform and consultancy hub offering jargon-free training, vCISO services, and mobile-based learning resources.',
-        image: '/images/cu.png',
+        image: '/images/cyber unicorn.png',
     },
     {
         id: 4,
@@ -53,7 +53,7 @@ const portfolioItems = [
         title: 'Complete Pakistan',
         description:
             'A massive-scale overseas employment portal connecting talent with Gulf-region opportunities through verified OEP directories and real-time job matching.',
-        image: '/images/cp.png',
+        image: '/images/complete-pakistan.png',
     },
     {
         id: 5,

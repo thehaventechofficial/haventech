@@ -198,13 +198,13 @@ export default function HeroSection() {
                                 <motion.div
                                     whileHover={{ scale: 1.05 }}
                                     whileTap={{ scale: 0.95 }}
-                                    style={{ width: '100%', maxWidth: '280px' }}
+                                    style={{ width: '100%', maxWidth: '200px' }}
                                 >
                                     <Button
                                         onClick={() => onOpen()}
                                         size={{ base: "md", md: "lg" }}
-                                        px={{ base: 8, md: 10 }}
-                                        py={{ base: 6, md: 8 }}
+                                        px={{ base: 8, md: '20px' }}
+                                        py={{ base: 6, md: '28px' }}
                                         w="100%"
                                         rounded="full"
                                         bg="white"
@@ -212,8 +212,6 @@ export default function HeroSection() {
                                         _hover={{
                                             bg: "red.500",
                                             color: "white",
-                                            // transform: "translateY(-2px)",
-                                            // shadow: "0 10px 40px rgba(239, 68, 68, 0.4)"
                                         }}
                                         transition="all 0.3s"
                                         fontWeight="bold"
@@ -224,7 +222,6 @@ export default function HeroSection() {
                                             style={{
                                                 position: 'absolute',
                                                 inset: 0,
-                                                // background: 'radial-gradient(circle, rgba(255,255,255,0.3), transparent)',
                                                 opacity: 0
                                             }}
                                             whileHover={{ opacity: 1, scale: 2 }}
